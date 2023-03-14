@@ -1,0 +1,5 @@
+'*.{ts,tsx}':
+  - yarn lint-fix
+  - yarn prettier
+'*.{json,md,yml,css,scss}':
+  - yarn prettier

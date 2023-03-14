@@ -1,0 +1,18 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-4 px-8 border border-blue-500 hover:border-transparent rounded;
+}
+
+.link-btn {
+  @apply bg-blue-500 text-blue-700 font-semibold text-white py-4 px-8  border-blue-500 hover:bg-gray-100 rounded border-4 border-blue-500;
+}
