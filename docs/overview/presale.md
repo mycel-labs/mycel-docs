@@ -20,3 +20,16 @@ mycel domain names in the presale are represented as NFTs on the Ethereum networ
 | 3          | 303          |
 | 4          | 30.3         |
 | 5 or more  | 3.03         |
+
+## Migration to mycel
+
+After the presale, NFT holders will be able to migrate their purchased domain names to the mycel platform. The migration process will involve the following steps:
+
+### Lock NFT on Ethereum
+
+The NFT holder will lock their NFT on the Ethereum network. Locking the NFT prevents any further transfers or sales of the NFT on Ethereum, effectively securing the domain name for migration to the mycel platform.
+
+### Register Domain on mycel
+
+Once the NFT is locked on Ethereum, the NFT holder can register the corresponding domain name on the mycel platform.
+The mycel platform will verify the locked status of the NFT on Ethereum and, if valid, register the domain name to the NFT holder's Kepler wallet address to edit records.
