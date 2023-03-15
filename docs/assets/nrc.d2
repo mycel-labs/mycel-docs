@@ -1,9 +1,10 @@
+direction: right
 anotherBlockchain: Chain A{
-  "userContract": User Contract
-  "NRC": Network Resolution Contract
+  "userContract": Smart Contract
+  "NRC": Name Resolution Contract
 
-  NRC -> userContract: 5. Callback
   userContract -> NRC: 1. resolve()
+  NRC -> userContract: 5. Callback
 }
 
 mycel{
@@ -14,7 +15,7 @@ mycel{
   Resolver -> eventHandler
 
 }
-
+EOA.shape:person
 EOA -> anotherBlockchain.userContract 
 anotherBlockchain.NRC -> mycel.eventHandler : 2. Emit onRequest
 mycel.eventHandler -> anotherBlockchain.NRC: 4. Response
