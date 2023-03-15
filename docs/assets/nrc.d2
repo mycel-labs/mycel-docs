@@ -1,0 +1,22 @@
+anotherBlockchain: Chain A{
+  "userContract": User Contract
+  "NRC": Network Resolution Contract
+
+  NRC -> userContract: 5. Callback
+  userContract -> NRC: 1. resolve()
+}
+
+mycel{
+  eventHandler: Event Handler
+  Resolver
+
+  eventHandler -> Resolver : 3. Resolve domain name
+  Resolver -> eventHandler
+
+}
+
+EOA -> anotherBlockchain.userContract 
+anotherBlockchain.NRC -> mycel.eventHandler : 2. Emit onRequest
+mycel.eventHandler -> anotherBlockchain.NRC: 4. Response
+
+

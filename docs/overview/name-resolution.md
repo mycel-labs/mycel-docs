@@ -1,0 +1,32 @@
+---
+sidebar_position: 3
+---
+
+# Domain Name Resolution
+
+One of the key features of mycel is its domain name resolution system, which allows users to resolve domain names through various protocols, such as DNS, smart contracts, and RPC.
+This document provides an overview of the domain name resolution process in mycel and its supported protocols.
+
+## Support Protocols
+
+### DNS
+
+Each node within the mycel network provides a DNS server to facilitate domain name resolution. This enables users to resolve mycel domain names using traditional DNS clients and applications, providing a seamless experience for those transitioning from the centralized web to the decentralized ecosystem.
+
+### Smart Contracts
+
+mycel's name resolution contracts (NRCs) are deployed on supported blockchain networks, such as EVM-compatible chains. Users can interact with NRCs to resolve domain names from within their smart contracts.
+
+![NRC](../assets/nrc.svg)
+
+1. Users can calls the `resolve()` function on an NRC from their smart contract.
+2. The NRC emits an `onRequest` event upon receiving the resolve request.
+3. The mycel network listens for `onRequest` events and processes the resolution requests.
+4. The mycel network sends the resolution response to the NRC.
+5. The NRC calls back the user's smart contract with the resolved data.
+
+RPC
+
+### RPC
+
+mycel also supports domain name resolution through Remote Procedure Calls (RPC), which allows users to resolve domain names programmatically using various programming languages and frameworks.
