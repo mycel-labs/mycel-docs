@@ -15,15 +15,15 @@ Each node within the mycel network provides a DNS server to facilitate domain na
 
 ### Smart Contracts
 
-mycel's name resolution contracts (NRCs) are deployed on supported blockchain networks, such as EVM-compatible chains. Users can interact with NRCs to resolve domain names from within their smart contracts.
+mycel's Name Service Contracts (NSCs) are deployed on supported blockchain networks, such as EVM-compatible chains. Users can interact with NSCs to resolve domain names from within their smart contracts.
 
-![NRC](../assets/nrc.svg)
+![NSC](../assets/nsc.svg)
 
-1. Users can calls the `resolve()` function on an NRC from their smart contract.
-2. The NRC emits an `onRequest` event upon receiving the resolve request.
+1. Users can calls the `resolve()` function on an NSC from their smart contract.
+2. The NSC emits an `onRequest` event upon receiving the resolve request.
 3. The mycel network listens for `onRequest` events and processes the resolution requests.
-4. The mycel network sends the resolution response to the NRC.
-5. The NRC calls back the user's smart contract with the resolved data.
+4. The mycel network sends the resolution response to the NSC.
+5. The NSC calls back the user's smart contract with the resolved data.
 
 RPC
 

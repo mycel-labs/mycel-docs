@@ -1,0 +1,23 @@
+direction: right
+otherChains: Other Chains{
+  "userContract": Smart Contract
+  "NSC": Name Service Contract
+
+  userContract -> NSC: 1. resolve()
+  NSC -> Event: 2. Emit onRequest
+  NSC -> userContract: 5. Callback
+}
+
+mycel{
+  eventHandler: Event Handler
+  Resolver
+
+  eventHandler -> Resolver : Resolve domain name
+  Resolver -> eventHandler
+
+}
+EOA.shape:person
+EOA -> otherChains.userContract 
+otherChains.Event <-> mycel.eventHandler : 3. Hook
+mycel.eventHandler -> otherChains.NSC : 4. Result
+

@@ -1,14 +1,23 @@
-direction: down
+mycel: mycel Network {
+  DNS: mycel DNS server
+  Registrar: mycel Regstrar
+
+  DNS -> Registrar
+}
+
+otherChain: Other Chains {
+  NSC: mycel Name Service Contract
+}
+otherChain.NSC -> mycel.Registrar
+
 "user".shape: person
 "your.eth".shape: page
+
 user -> "your.eth": your.eth?
-"your.eth" -> mycel network: IBC
-"your.eth" -> mycel DNS server: DNS
-"your.eth" -> mycel smart contract: EVM,Move...
-mycel DNS server -> mycel network
-mycel smart contract -> mycel network
-mycel network -> "your.website" : Website
-mycel network -> "3Fzbhgie...igbGUUZv": BTC
-mycel network -> "0x0FaB94...D9249dA": EVM
-mycel network -> "cosmos:ie...igbG4Zv": Cosmos Hub
-mycel network -> "...": Other addresses
+"your.eth" -> mycel.DNS: DNS
+"your.eth" -> otherChain.NSC: EVM,Move...
+mycel.Registrar-> "your.website" : Website
+mycel.Registrar-> "3Fzbhgie...igbGUUZv": BTC
+mycel.Registrar-> "0x0FaB94...D9249dA": EVM
+mycel.Registrar-> "cosmos:ie...igbG4Zv": Cosmos Hub
+mycel.Registrar->"...": Other addresses
