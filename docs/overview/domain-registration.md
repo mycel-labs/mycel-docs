@@ -11,13 +11,14 @@ It provides users with the ability to secure unique domain names that can be use
 
 TLDs are the highest level in the domain name hierarchy, such as .com, .org, or .net. In mycel, validators are responsible for registering TLDs. To become a validator and register a TLD, a user must stake a specified number of tokens (N tokens). This requirement ensures the commitment and credibility of the validator.
 
-Once a validator has registered a TLD, they can set the registration fee for the associated second-level domains (SLDs). This fee can vary depending on the validator's preferences or market demand.
+Once a validator has registered a TLD, they can set the registration fee for the associated second-level domains (SLDs).
 
 ## Second-Level Domains (SLDs)
 
 SLDs are the domain names that users typically register and use for their projects, such as example.com or myproject.org. In the context of mycel, the primary SLD is .cel (e.g., myproject.cel). Users can register SLDs under the .cel TLD to represent their projects or assets in the decentralized ecosystem.
 
-The registration fee for SLDs depends on the number of characters in the domain name. This variable pricing structure incentivizes users to select shorter domain names, which are generally more memorable and valuable.
+The registration fee for SLDs depends on the number of characters in the domain name.
+This variable pricing structure incentivizes users to select shorter domain names, which are generally more memorable and valuable.
 
 ## Subdomains
 

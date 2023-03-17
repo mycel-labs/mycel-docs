@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/preset-classic').Options} */ defaultSettings = {
   remarkPlugins: [
-    [require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
+    [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
     require('remark-math'),
   ],
   rehypePlugins: [require('rehype-katex')],
@@ -130,15 +130,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Product',
-            items: [
-              {
-                label: 'mycel',
-                to: '/',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
