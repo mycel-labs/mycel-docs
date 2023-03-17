@@ -4,6 +4,11 @@ sidebar_position: 4
 
 # Incentives
 
+mycel is driven by the belief that:
+
+- Domain registration fees should be dedicated to domain management expenses.
+- Interoperable domains should be managed not by a single governance entity but by a governance structure formed by the network that manages the domains.
+
 ## Distribution to Validators and Delegators
 
 The mycel platform aims to create a decentralized and fair ecosystem for domain name registration and management.
