@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title="Home" description="<head />">
+    <Layout title="Home" description="mycel">
       <main>
         <div>
           <div className="container mx-auto flex flex-col items-center py-12 sm:py-24">

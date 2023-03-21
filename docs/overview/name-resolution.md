@@ -25,8 +25,6 @@ mycel's Name Service Contracts (NSCs) are deployed on supported blockchain netwo
 4. The mycel network sends the resolution response to the NSC.
 5. The NSC calls back the user's smart contract with the resolved data.
 
-RPC
-
 ### RPC
 
 mycel also supports domain name resolution through Remote Procedure Calls (RPC), which allows users to resolve domain names programmatically using various programming languages and frameworks.

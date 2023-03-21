@@ -1,14 +1,14 @@
 mycel: mycel Network {
   DNS: mycel DNS server
-  Registrar: mycel Regstrar
+  Registry: mycel Regsitry
 
-  DNS -> Registrar
+  DNS -> Registry
 }
 
 otherChain: Other Chains {
   NSC: mycel Name Service Contract
 }
-otherChain.NSC -> mycel.Registrar
+otherChain.NSC -> mycel.Registry
 
 "user".shape: person
 "your.eth".shape: page
@@ -16,8 +16,8 @@ otherChain.NSC -> mycel.Registrar
 user -> "your.eth": your.eth?
 "your.eth" -> mycel.DNS: DNS
 "your.eth" -> otherChain.NSC: EVM,Move...
-mycel.Registrar-> "your.website" : Website
-mycel.Registrar-> "3Fzbhgie...igbGUUZv": BTC
-mycel.Registrar-> "0x0FaB94...D9249dA": EVM
-mycel.Registrar-> "cosmos:ie...igbG4Zv": Cosmos Hub
-mycel.Registrar->"...": Other addresses
+mycel.Registry-> "your.website" : Website
+mycel.Registry-> "3Fzbhgie...igbGUUZv": BTC
+mycel.Registry-> "0x0FaB94...D9249dA": EVM
+mycel.Registry-> "cosmos:ie...igbG4Zv": Cosmos Hub
+mycel.Registry->"...": Other addresses
