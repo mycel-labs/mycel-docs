@@ -42,7 +42,7 @@ const SECTIONS = [
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'mycel docs',
-  tagline: 'Revolutionizing multi-chain experiences by enhancing name services utility. Empowering businesses, NFT communities, and DAOs to issue domains effortlessly. Embrace the future with decentralized name service.',
+  tagline: '',
   url: 'https://docs.mycel.domains',
   baseUrl: '/',
   onBrokenLinks: 'throw',
