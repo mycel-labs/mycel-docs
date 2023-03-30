@@ -114,7 +114,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'mycel',
+        title: '',
+        logo: {
+          alt: 'mycel Logo',
+          src: 'img/logo.svg',
+        },
         items: [
           {
             to: '/overview',
