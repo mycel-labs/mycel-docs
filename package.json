@@ -20,9 +20,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.4.0",
-    "@docusaurus/preset-classic": "^2.4.0",
-    "@docusaurus/remark-plugin-npm2yarn": "^2.4.0",
+    "@docusaurus/core": "^2.4.1",
+    "@docusaurus/preset-classic": "^2.4.1",
+    "@docusaurus/remark-plugin-npm2yarn": "^2.4.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",
     "hast-util-is-element": "1.1.0",
@@ -33,7 +33,7 @@
     "remark-math": "3"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^2.4.0",
+    "@docusaurus/eslint-plugin": "^2.4.1",
     "@docusaurus/module-type-aliases": "^2.4.0",
     "@tsconfig/docusaurus": "^1.0.5",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
