@@ -23,7 +23,7 @@ Edit `~/.mycel/client.toml`
 
 ```toml
 # The network chain ID
-chain-id = "mycel"
+chain-id = "mycel-shugyo"
 # The keyring's backend, where the keys are stored (os|file|kwallet|pass|test|memory)
 keyring-backend = "test"
 # CLI output format (text|json)
