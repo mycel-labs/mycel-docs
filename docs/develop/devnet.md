@@ -4,10 +4,10 @@ sidebar_position: 3
 
 # Devnet (Shugyo)
 
-- HTTP API Console
-  [http://shugyo.mycel.domains:1317/](http://shugyo.mycel.domains:1317/)
+- Light Client Daemon
+  [https://lcd-shugyo.mycel.domains/](https://lcd-shugyo.mycel.domains/)
 - RPC Endpoint
-  [http://shugyo.mycel.domains:26657/](http://shugyo.mycel.domains:26657/)
+  [https://rpc-shugyo.mycel.domains/](https://rpc-shugyo.mycel.domains/)
 
 ## Install CLI
 
@@ -29,7 +29,7 @@ keyring-backend = "test"
 # CLI output format (text|json)
 output = "text"
 # <host>:<port> to Tendermint RPC interface for this chain
-node = "tcp://shugyo.mycel.domains:26657"
+node = "https://rpc-shugyo.mycel.domains/"
 # Transaction broadcasting mode (sync|async|block)
 broadcast-mode = "block"
 ```
