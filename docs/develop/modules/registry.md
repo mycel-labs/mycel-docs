@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Registry
 
 ## Abstract
@@ -12,6 +8,8 @@ Registry module provides the following feature:
 - Update name records
 
 ## Stores
+
+[proto/mycel/registry](https://github.com/mycel-domain/mycel/tree/main/proto/mycel/registry)
 
 ### domain.proto
 
@@ -166,6 +164,8 @@ pagination:
 
 ### show-domain
 
+Query domain records by domain
+
 ```
 myceld q regisry show-domain [name] [parent]
 ```
@@ -192,4 +192,50 @@ domain:
       WalletAddressFormat: ETHEREUM
       value: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
       walletRecordType: ETHEREUM_MAINNET
+```
+
+### list-domain-ownership
+
+List all domain ownership
+
+```
+myceld q registry list-domain-ownership
+```
+
+### show-domain-ownership
+
+Query domain ownership by owner
+
+```
+myceld q registry show-domain-ownership [owner]
+```
+
+### domain-registration-fee
+
+Query domain registration fee
+
+```
+myceld q registry domain-registration-fee [name] [parent]
+```
+
+Response:
+
+```
+fee:
+  amount: string
+```
+
+### is-registrable-domain
+
+Query a domain is registrable
+
+```
+myceld q registry is-registrable-domain [name] [parent]
+```
+
+Response:
+
+```
+errorMessage: string
+isRegstrable: bool
 ```
