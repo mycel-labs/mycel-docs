@@ -13,6 +13,17 @@ For example, by connecting your ENS domain to mycel, you can resolve your ENS do
 
 ![overview](../assets/overview.svg)
 
+### Dashboard
+
+[https://dashboard.mycel.domains/](https://dashboard.mycel.domains/)
+
+The following functions are available from the mycel dashboard:
+
+- Regsiter domains
+- Update records
+- Resolve domains
+- Send token with mycel domain name
+
 ## Multichain Integration
 
 mycel supports reading and writing name records from other blockchain networks:
