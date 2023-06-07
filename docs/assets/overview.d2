@@ -11,13 +11,16 @@ otherChain: Other Chains {
 otherChain.NSC -> mycel.Registry
 
 "user".shape: person
-"your.cel".shape: page
+"example.cel".shape: page
 
-user -> "your.cel": your.cel?
-"your.cel" -> mycel.DNS: DNS
-"your.cel" -> otherChain.NSC: EVM,Move...
-mycel.Registry-> "your.website" : Website
+user -> "example.cel": example.cel?
+"example.cel" -> mycel.DNS: DNS
+"example.cel" -> otherChain.NSC: EVM,Move...
+mycel.Registry-> "1.1.1.1" : Website
+mycel.Registry-> "mail.example.com" : Mail Server
 mycel.Registry-> "3Fzbhgie...igbGUUZv": BTC
 mycel.Registry-> "0x0FaB94...D9249dA": EVM
 mycel.Registry-> "cosmos:ie...igbG4Zv": Cosmos Hub
+mycel.Registry-> "ipfs://ivo": IPFS
+mycel.Registry-> "https://~.icp0.io": ICP
 mycel.Registry->"...": Other addresses
