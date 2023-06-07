@@ -46,6 +46,7 @@ And, you can resolve domains via the following protocols:
 - RPC
 
 You will be able to manage complex addresses with one domain.
+This means that it is possible to track multiple chains of activity under one domain.
 [See more](name-resolution)
 
 ### Interoperability
