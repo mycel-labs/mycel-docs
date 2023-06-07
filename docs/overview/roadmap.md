@@ -6,14 +6,24 @@ sidebar_position: 6
 
 ## 2023 Q2 - Devnet Release
 
-- Support Domain registration
-- Support resolution via DNS / IBC / Ethereum
+- Support domain registration
+- Support resolution via DNS and RPC
+- Support EVM, Bitcoin, Aptos/Sui, Solana Records
+- Release mycel Typescript SDK
+- Release mycel dashboard
 
 ## 2023 Q3 - Testnet Release
 
-- Support CosmWasm / EVM smart contracts
+- Support resolution via IBC and EVM
+- Support ICP/ IPFS Gateway
 - Domain name presale (NFT)
 
 ## 2023 Q4 - Mainnet Release
 
-- Domain marketplace (secondary market)
+- Release TLD registration / Staking
+- Support CosmWasm smart contracts
+
+## 2024 Q1~
+
+- Release secondary domain market
+- Integrate with other name services
