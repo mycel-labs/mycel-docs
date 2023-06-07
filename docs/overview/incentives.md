@@ -13,7 +13,7 @@ mycel is driven by the belief that:
 
 The mycel platform aims to create a decentralized and fair ecosystem for domain name registration and management.
 The domain registration fees collected during each period are distributed among validators and delegators as a form of reward for their contributions to the mycel network.
-This incentivizes network participants to actively engage in maintaining the security and stability of the platform.
+This incentives network participants to actively engage in maintaining the security and stability of the platform.
 
 ## Fee Distribution Process
 
