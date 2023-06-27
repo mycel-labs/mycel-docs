@@ -9,8 +9,8 @@ sidebar_position: 6
 - Support domain registration
 - Support resolution via DNS and RPC
 - Support EVM, Bitcoin, Aptos/Sui, Solana Records
-- Release mycel Typescript SDK
-- Release mycel dashboard
+- Release Mycel Typescript SDK
+- Release Mycel dashboard
 
 ## 2023 Q3 - Testnet Release
 

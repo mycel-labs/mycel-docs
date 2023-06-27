@@ -1,26 +1,26 @@
-mycel: mycel {
-  DNS: mycel DNS server
-  Registry: mycel Regsitry
+Mycel: Mycel {
+  DNS: Mycel DNS server
+  Registry: Mycel Regsitry
 
   DNS -> Registry
 }
 
 otherChain: Other Chains {
-  NSC: mycel Name Service Contract
+  NSC: Mycel Name Service Contract
 }
-otherChain.NSC -> mycel.Registry
+otherChain.NSC -> Mycel.Registry
 
 "user".shape: person
 "example.cel".shape: page
 
 user -> "example.cel": example.cel?
-"example.cel" -> mycel.DNS: DNS
+"example.cel" -> Mycel.DNS: DNS
 "example.cel" -> otherChain.NSC: EVM,Move...
-mycel.Registry-> "1.1.1.1" : Website
-mycel.Registry-> "mail.example.com" : Mail Server
-mycel.Registry-> "3Fzbhgie...igbGUUZv": BTC
-mycel.Registry-> "0x0FaB94...D9249dA": EVM
-mycel.Registry-> "cosmos:ie...igbG4Zv": Cosmos Hub
-mycel.Registry-> "ipfs://ivo": IPFS
-mycel.Registry-> "https://~.icp0.io": ICP
-mycel.Registry->"...": Other addresses
+Mycel.Registry-> "1.1.1.1" : Website
+Mycel.Registry-> "mail.example.com" : Mail Server
+Mycel.Registry-> "3Fzbhgie...igbGUUZv": BTC
+Mycel.Registry-> "0x0FaB94...D9249dA": EVM
+Mycel.Registry-> "cosmos:ie...igbG4Zv": Cosmos Hub
+Mycel.Registry-> "ipfs://ivo": IPFS
+Mycel.Registry-> "https://~.icp0.io": ICP
+Mycel.Registry->"...": Other addresses

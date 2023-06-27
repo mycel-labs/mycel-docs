@@ -8,7 +8,7 @@ OtherChains: Other Chains{
   NSC -> UserContract:  Callback
 }
 
-mycel: mycel{
+Mycel: Mycel{
   Resolver {
   EventHandler: Event Handler
   IBCHandler: IBC Handler
@@ -55,11 +55,11 @@ Validator: {
   icon: https://icons.terrastruct.com/essentials%2F359-users.svg
 }
 # User -> OtherChains.userContract : Resolve via smart contract
-# User -> mycel.Resolver.IBCHandler : Resolve via IBC
+# User -> Mycel.Resolver.IBCHandler : Resolve via IBC
 
-User -> mycel.Registry.RegisterDomain : Register domain
-User -> mycel.Registry.UpdateRecord : Update record
+User -> Mycel.Registry.RegisterDomain : Register domain
+User -> Mycel.Registry.UpdateRecord : Update record
 
-OtherChains.Event <-> mycel.Resolver.eventHandler :  Hook
-mycel.Resolver.EventHandler -> OtherChains.NSC : Result
-mycel.Incentives.DistributeRewards -> Validator :Reward
+OtherChains.Event <-> Mycel.Resolver.eventHandler :  Hook
+Mycel.Resolver.EventHandler -> OtherChains.NSC : Result
+Mycel.Incentives.DistributeRewards -> Validator :Reward

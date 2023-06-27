@@ -8,7 +8,7 @@ otherChains: Other Chains{
   NSC -> userContract: 5. Callback
 }
 
-mycel: mycel{
+Mycel: Mycel{
   eventHandler: Event Handler
   Resolver
 
@@ -18,6 +18,6 @@ mycel: mycel{
 }
 EOA.shape:person
 EOA -> otherChains.userContract 
-otherChains.Event <-> mycel.eventHandler : 3. Hook
-mycel.eventHandler -> otherChains.NSC : 4. Result
+otherChains.Event <-> Mycel.eventHandler : 3. Hook
+Mycel.eventHandler -> otherChains.NSC : 4. Result
 
