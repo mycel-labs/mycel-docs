@@ -6,11 +6,11 @@ sidebar_position: 2
 
 [https://dashboard.mycel.domains/](https://dashboard.mycel.domains/)
 
-The following functions are available from the mycel dashboard:
+The following functions are available from the Mycel dashboard:
 
 - Regsiter domains
 - Update records
 - Resolve domains
-- Send token with mycel domain name
+- Send token with Mycel domain name
 
 ![dahboard](../assets/dashboard.png)

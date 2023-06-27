@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-The guides on this page will explain the process of developing on mycel.
+The guides on this page will explain the process of developing on Mycel.
 
 ## Architechture Overview
 

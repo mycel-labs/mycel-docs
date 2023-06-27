@@ -4,12 +4,12 @@ sidebar_position: 1
 
 # Introduction
 
-## What is mycel?
+## What is Mycel?
 
-mycel is a **Decentralized Name Service Infrastracture** that can resolve website, wallet, IPFS, and any addresses.
-mycel supports name resolution in DNS, IBC, and smart contracts on supported chains.  
+Mycel is a **Decentralized Name Service Infrastracture** that can resolve website, wallet, IPFS, and any addresses.
+Mycel supports name resolution in DNS, IBC, and smart contracts on supported chains.  
 It is also integrated with other blockchain name services such as [Ethereum Name Service (ENS)](https://ens.domains).
-For example, by connecting your ENS domain to mycel, you can resolve your ENS domain (not only Ethereum addresses, but also Bitcoin, Cosmos, Aptos, and more) from other supported chains, or resolve your website by adding DNS records.
+For example, by connecting your ENS domain to Mycel, you can resolve your ENS domain (not only Ethereum addresses, but also Bitcoin, Cosmos, Aptos, and more) from other supported chains, or resolve your website by adding DNS records.
 
 ![overview](../assets/overview.svg)
 
@@ -19,18 +19,18 @@ Our motivation is to build a "Domain Management Ecosystem" that manages domains 
 
 This project aims to expand the ecosystem by integrating existing name services, adopting common token standards (ERC721, ADR43), and messaging protocols for interoperability (e.g., IBC) to improve utility and liquidity.
 
-## Why mycel?
+## Why Mycel?
 
 ### Customizable Domains
 
-mycel offers a tiered domain registration system including Top-Level Domains (TLDs), Second-Level Domains (SLDs).
+Mycel offers a tiered domain registration system including Top-Level Domains (TLDs), Second-Level Domains (SLDs).
 This system is attractive to organizations with communities seeking more flexible and customizable naming services.
-Once you have staked a certain amount of tokens on a mycel node, you can issue a TLD for your community or organization.
+Once you have staked a certain amount of tokens on a Mycel node, you can issue a TLD for your community or organization.
 [See more](domain-registration)
 
 ### Multiple Protocols Support
 
-mycel caters to different user needs by supporting various protocols and a range of record types.
+Mycel caters to different user needs by supporting various protocols and a range of record types.
 Supported record types:
 
 - Domain Name System (DNS) records
@@ -51,7 +51,7 @@ This means that it is possible to track multiple chains of activity under one do
 
 ### Interoperability
 
-mycel supports communicate with other blockchain network like:
+Mycel supports communicate with other blockchain network like:
 
 - Ethereum and other EVM compatible chains
 - IBC Supported chains
@@ -68,15 +68,15 @@ This integration can increase utility for users who have existing domains on tho
 
 ### Incentives and Governance for Participation
 
-mycel incentives network participants, such as validators and delegators, by distributing domain registration fees among them, rewarding them for their contributions to maintaining the network.
+Mycel incentives network participants, such as validators and delegators, by distributing domain registration fees among them, rewarding them for their contributions to maintaining the network.
 
-The domain registration fees collected during each period are distributed among validators and delegators as a form of reward for their contributions to the mycel network.
+The domain registration fees collected during each period are distributed among validators and delegators as a form of reward for their contributions to the Mycel network.
 This incentives network participants to actively engage in maintaining the security and stability of the platform.
 [See more](incentives)
 
 ### Smart Contracts
 
-You can build and deploy dApps(CosmWasm smart contracts) on mycel like:
+You can build and deploy dApps(CosmWasm smart contracts) on Mycel like:
 
 - Community Management Tools
 - Decentralized Identifiers(DID) Protocols
