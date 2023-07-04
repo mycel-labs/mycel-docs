@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Domain Name Resolution
 
+![protocols](../assets/protocols.png)
+
 One of the key features of Mycel is its domain name resolution system, which allows users to resolve domain names through various protocols, such as DNS, smart contracts, and RPC.
 This document provides an overview of the domain name resolution process in Mycel and its supported protocols.
 

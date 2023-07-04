@@ -7,19 +7,22 @@ sidebar_position: 1
 ## What is Mycel?
 
 Mycel is a **Decentralized Name Service Infrastracture** that can resolve website, wallet, IPFS, and any addresses.
-Mycel supports name resolution in DNS, IBC, and smart contracts on supported chains.  
-It is also integrated with other blockchain name services such as [Ethereum Name Service (ENS)](https://ens.domains).
-For example, by connecting your ENS domain to Mycel, you can resolve your ENS domain (not only Ethereum addresses, but also Bitcoin, Cosmos, Aptos, and more) from other supported chains, or resolve your website by adding DNS records.
+Mycel supports name resolution in DNS, IBC, and smart contracts on supported chains.
 
 ![overview](../assets/overview.svg)
 
-Existing name service are operated as dApps on each chain, but they lack interoperability with other chains and managed by single govenance entity on each chain.
-
+Existing name service are operated as dApps on each chain, but they lack interoperability with other chains and managed by single govenance entity on each chain.  
 Our motivation is to build a "Domain Management Ecosystem" that manages domains on a decentralized network aimed at name resolution, making them accessible from multiple protocols to solve these problems.
-
 This project aims to expand the ecosystem by integrating existing name services, adopting common token standards (ERC721, ADR43), and messaging protocols for interoperability (e.g., IBC) to improve utility and liquidity.
 
 ## Why Mycel?
+
+### Multiple Wallet Address Support
+
+![contractwallets](../assets/multiwallet.png)
+
+Mycel supports almost of all chain's wallet addresses.
+It is possible to resolve multiple addresses for each chain, such as contract wallets, with a single name.
 
 ### Customizable Domains
 
@@ -28,8 +31,15 @@ This system is attractive to organizations with communities seeking more flexibl
 Once you have staked a certain amount of tokens on a Mycel node, you can issue a TLD for your community or organization.
 [See more](domain-registration)
 
+### Integration with Other Name services
+
+![integrate](../assets/integration.png)
+It is also integrated with other blockchain name services such as [Ethereum Name Service (ENS)](https://ens.domains).
+For example, by connecting your ENS domain to Mycel, you can resolve your ENS domain (not only Ethereum addresses, but also Bitcoin, Cosmos, Aptos, and more) from other supported chains, or resolve your website by adding DNS records.
+
 ### Multiple Protocols Support
 
+![multiple-prortocols](../assets/protocols.png)
 Mycel caters to different user needs by supporting various protocols and a range of record types.
 Supported record types:
 
@@ -51,6 +61,7 @@ This means that it is possible to track multiple chains of activity under one do
 
 ### Interoperability
 
+![interoperability](../assets/interchain.png)
 Mycel supports communicate with other blockchain network like:
 
 - Ethereum and other EVM compatible chains
@@ -68,6 +79,7 @@ This integration can increase utility for users who have existing domains on tho
 
 ### Incentives and Governance for Participation
 
+![incentives](../assets/incentive.png)
 Mycel incentives network participants, such as validators and delegators, by distributing domain registration fees among them, rewarding them for their contributions to maintaining the network.
 
 The domain registration fees collected during each period are distributed among validators and delegators as a form of reward for their contributions to the Mycel network.
