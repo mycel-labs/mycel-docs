@@ -42,7 +42,7 @@ const SECTIONS = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'mycel docs',
+  title: 'Mycel docs',
   tagline: '',
   url: 'https://docs.mycel.domains',
   baseUrl: '/',
@@ -146,6 +146,10 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/myceldomain',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discord.gg/7zm2TAJbqv',
               },
             ],
           },
