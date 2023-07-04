@@ -9,7 +9,9 @@ Mycel is driven by the belief that:
 - Domain registration fees should be dedicated to domain management expenses.
 - Interoperable domains should be managed not by a single governance entity but by a governance structure formed by the network that manages the domains.
 
-## Distribution to Validators and Delegators
+## Distribution to Validators and delegators
+
+![incentives](../assets/incentive.png)
 
 The Mycel platform aims to create a decentralized and fair ecosystem for domain name registration and management.
 The domain registration fees collected during each period are distributed among validators and delegators as a form of reward for their contributions to the Mycel network.
