@@ -9,6 +9,7 @@ It provides users with the ability to secure unique domain names that can be use
 
 ## Top-Level Domains (TLDs)
 
+![tokenomics](../assets/tokenomics.png)
 TLDs are the highest level in the domain name hierarchy, such as .com, .org, or .net. In Mycel, validators are responsible for registering TLDs. To become a validator and register a TLD, a user must stake a specified number of tokens (N tokens). This requirement ensures the commitment and credibility of the validator.
 
 Once a validator has registered a TLD, they can set the registration fee for the associated second-level domains (SLDs).

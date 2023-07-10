@@ -26,6 +26,7 @@ It is possible to resolve multiple addresses for each chain, such as contract wa
 
 ### Customizable Domains
 
+![tokenomics](../assets/tokenomics.png)
 Mycel offers a tiered domain registration system including Top-Level Domains (TLDs), Second-Level Domains (SLDs).
 This system is attractive to organizations with communities seeking more flexible and customizable naming services.
 Once you have staked a certain amount of tokens on a Mycel node, you can issue a TLD for your community or organization.
