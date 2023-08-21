@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Roadmap
 
-## 2023 Q2 - Devnet Release
+## 2023Q2 : Devnet Release
 
 - Support domain registration
 - Support resolution via DNS and RPC
@@ -12,18 +12,13 @@ sidebar_position: 6
 - Release Mycel Typescript SDK
 - Release Mycel dashboard
 
-## 2023 Q3 - Testnet Release
+## 2023Q3~Q4 : Testnet Release
+
+- Support TLD(Customizable domains) registration
+- Release Name Service Aggrigator (Integration with other name services)
+- Support CosmWasm smart contracts
+
+## 2023Q4 ~ 2024Q2 : Mainnet Release
 
 - Support resolution via IBC and EVM
 - Support ICP/ IPFS Gateway
-- Domain name presale (NFT)
-
-## 2023 Q4 - Mainnet Release
-
-- Release TLD registration / Staking
-- Support CosmWasm smart contracts
-
-## 2024 Q1~
-
-- Release secondary domain market
-- Integrate with other name services
