@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Domain Name Resolution
+# Name Resolution
 
 ![protocols](../assets/protocols.png)
 
