@@ -30,15 +30,13 @@ $\alpha$: A parameter, ranging from 0 to 1, used to balance the influence of sta
 
 ### Calculating the Burn Amount
 
-The amount of MYCEL tokens to be burned is calculated using the equation:
+The weight is determined using the equation:
 
 $$
 W= \alpha S+(1-\alpha)I
 $$
 
 This equation calculates the weight $w$ that takes into account both the rate of staking $S$ and the rate of inflation $I$. The parameter $\alpha$ is used to determine the relative importance of staking versus inflation in the weight.
-
-### Calculating the Burn Amount
 
 The amount of MYCEL tokens to be burned is calculated using the equation:
 
