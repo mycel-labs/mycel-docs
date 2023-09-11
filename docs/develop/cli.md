@@ -28,4 +28,4 @@ Run the full node
 mycel start
 ```
 
-To refer other commands: [Module](develop/module)
+To refer other commands: [Module](/develop/modules)

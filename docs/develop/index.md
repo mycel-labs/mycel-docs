@@ -8,8 +8,8 @@ The guides on this page will explain the process of developing on Mycel.
 
 ## Modules
 
-[Module](develop/modules)
+[Module](/develop/modules)
 
 ## CLI
 
-[CLI](develop/cli)
+[CLI](/develop/cli)
