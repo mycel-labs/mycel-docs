@@ -6,10 +6,10 @@ sidebar_position: 1
 
 The guides on this page will explain the process of developing on Mycel.
 
-## Architechture Overview
-
-![architecture-overview](../assets/architecture_overview.svg)
-
 ## Modules
 
-[Module](modules)
+[Module](/develop/modules)
+
+## CLI
+
+[CLI](/develop/cli)

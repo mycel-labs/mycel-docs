@@ -22,7 +22,7 @@ This project aims to expand the ecosystem by integrating existing name services,
 ![tokenomics](../assets/tokenomics.png)
 Mycel offers a tiered domain registration system including Top-Level Domains (TLDs), Second-Level Domains (SLDs).
 This system is attractive to organizations with communities seeking more flexible and customizable naming services.
-[See more](domain-registration)
+[See more](/overview/domain-registration)
 
 ### Interoperability
 
@@ -71,13 +71,13 @@ And, you can resolve domains via the following protocols:
 
 You will be able to manage complex addresses with one domain.
 This means that it is possible to track multiple chains of activity under one domain.
-[See more](name-resolution)
+[See more](/overview/name-resolution)
 
 ### Incentives and Governance for Participation
 
 ![incentives](../assets/incentive.png)
 Mycel's platform aims to create a decentralized and fair ecosystem for domain name registration and management. Instead of distributing domain registration fees directly, Mycel burns a calculated amount of MYCEL tokens, using this mechanism to compensate Validators and other network participants for their contribution to maintaining the network's security and stability.
-[See more](tokenomics)
+[See more](/overview/tokenomics)
 
 ### Smart Contracts
 
