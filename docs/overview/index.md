@@ -6,8 +6,7 @@ sidebar_position: 1
 
 ## What is Mycel?
 
-Mycel is a **Decentralized Name Service Infrastracture** that can resolve website, wallet, IPFS, and any addresses.
-Mycel supports name resolution in DNS, IBC, and smart contracts on supported chains.
+Mycel is a Decentralized ID Infrastructure solution that resolves addresses such as websites, crypto wallets, IPFS, among many more accessible through a single domain with name resolution support in DNS, IBC and smart contracts.
 
 ![contractwallets](../assets/multiwallet.png)
 
