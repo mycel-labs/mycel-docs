@@ -21,7 +21,7 @@ Mycel's Name Service Contracts (NSCs) are deployed on supported blockchain netwo
 
 ![NSC](../assets/nsc.svg)
 
-1. Users can calls the `resolve()` function on an NSC from their smart contract.
+1. Users can call the `resolve()` function on an NSC from their smart contract.
 2. The NSC emits an `onRequest` event upon receiving the resolve request.
 3. The Mycel network listens for `onRequest` events and processes the resolution requests.
 4. The Mycel network sends the resolution response to the NSC.

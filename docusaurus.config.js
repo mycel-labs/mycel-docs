@@ -42,7 +42,7 @@ const SECTIONS = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mycel docs',
+  title: 'Mycel Docs',
   tagline: '',
   url: 'https://docs.mycel.domains',
   baseUrl: '/',
@@ -137,8 +137,12 @@ const config = {
           },
         ],
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       footer: {
-        style: 'dark',
         links: [
           {
             title: 'Community',

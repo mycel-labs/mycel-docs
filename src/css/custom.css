@@ -9,10 +9,25 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --light-yellow: #fffcdf;
+  --dark-salmon: #e6a894;
+}
+
+:root {
+  --ifm-color-primary: #d15d38;
+  --ifm-color-primary-dark: #c2512d;
+  --ifm-color-primary-darker: #b74c2a;
+  --ifm-color-primary-darkest: #973f23;
+  --ifm-color-primary-light: #d66f4e;
+  --ifm-color-primary-lighter: #d87758;
+  --ifm-color-primary-lightest: #e09279;
+}
+
 .btn {
-  @apply bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-4 px-8 border border-blue-500 hover:border-transparent rounded;
+  @apply bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-4 px-8 border border-primary hover:border-transparent rounded;
 }
 
 .link-btn {
-  @apply bg-blue-500 text-blue-700 font-semibold text-white py-4 px-8  border-blue-500 hover:bg-gray-100 rounded border-4 border-blue-500;
+  @apply bg-primary text-white font-semibold  py-4 px-8  border-primary hover:text-white hover:bg-primary-light rounded border-4 border-primary;
 }
