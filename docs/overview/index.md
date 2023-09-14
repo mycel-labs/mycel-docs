@@ -45,6 +45,13 @@ This integration can increase utility for users who have existing domains on tho
 Also, Mycel supports almost of all chain's wallet addresses.
 It is possible to resolve multiple addresses for each chain, such as contract wallets, with a single name.
 
+### Private records
+
+![private](../assets/private_record.png)
+
+Mycel's 'Private Record' feature ensures that users can send and receive tokens using just a domain name, without revealing their actual wallet address. This is achieved using a cryptographic technique called zero-knowledge proof.  
+In essence, zero-knowledge proof allow one party to prove to another that a statement is true, without revealing any specific information about the statement itself. By leveraging this technology, Mycel ensures that transactions remain both private and secure, offering users peace of mind and enhanced protection.
+
 ### Integration with Other Name services
 
 ![integrate](../assets/integration.png)
