@@ -4,10 +4,14 @@ sidebar_position: 2
 
 # Domain Registration
 
+![domain](../assets/domain.png)
+
 Domain registration is a crucial aspect of the Mycel project.
 It provides users with the ability to secure unique domain names that can be used to represent their websites, services, or digital assets on the decentralized web. The Mycel domain registration process consists of two levels: Top-Level Domains (TLDs) and Second-Level Domains (SLDs). Here, we will delve into the details of each level and the registration process.
 
-## Top-Level Domains (TLDs)
+## Domains
+
+### Top-Level Domains (TLDs)
 
 ![tokenomics](../assets/tokenomics.png)
 TLDs are the highest level in the domain name hierarchy, such as .com, .org, or .net. In Mycel, validators are responsible for registering TLDs.
@@ -18,14 +22,14 @@ The process of issuing a TLD within the Mycel system involves several key steps:
 3. Mycel calculates the amount of MYCEL tokens to burn based on the locked registration fee and a specific rate. The tokens are then burnt, effectively removing them from circulation.
 4. Upon successful completion of the above steps, Mycel issues the TLD to the applicant.
 
-## Second-Level Domains (SLDs)
+### Second-Level Domains (SLDs)
 
 SLDs are the domain names that users typically register and use for their projects, such as example.com or myproject.org. In the context of Mycel, the primary SLD is .cel (e.g., myproject.cel). Users can register SLDs under the .cel TLD to represent their projects or assets in the decentralized ecosystem.
 
 The registration fee for SLDs depends on the number of characters in the domain name.
 This variable pricing structure incentivizes users to select shorter domain names, which are generally more memorable and valuable.
 
-## Subdomains
+#### Subdomains
 
 Subdomains are subdivisions of SLDs, allowing users to create additional levels within their registered domain names. For example, a user with the domain myproject.cel could create a subdomain like blog.myproject.cel. In Mycel, subdomain registration is free of charge, enabling users to create as many subdomains as they need without incurring additional costs.
 
