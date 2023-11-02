@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Domain Registration
 
-![domain](../assets/domain.png)
+![domain](../assets/domain_top.png)
 
 Domain registration is a crucial aspect of the Mycel project.
 It provides users with the ability to secure unique domain names that can be used to represent their websites, services, or digital assets on the decentralized web. The Mycel domain registration process consists of two levels: Top-Level Domains (TLDs) and Second-Level Domains (SLDs). Here, we will delve into the details of each level and the registration process.
