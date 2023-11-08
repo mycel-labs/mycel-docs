@@ -40,7 +40,7 @@ By delegating tokens to validators, delegators augment network governance and se
 ## Token Burning Process
 
 1. **Calculate the Total Domain Registration Fees**: Determine the total amount of domain registration fees collected during the period in accepted tokens (e.g., USDC).
-2. **Determine the Amount of MYCEL to Burn**: Utilize the collected fees and a specific rate to calculate the MYCEL tokens to burn. This rate takes into account factors such as the price of MYCEL in accepted tokens, staking rate, inflation rate, and other predetermined parameters. The token amounts sent to the community pool is determined at the same time.
+2. **Determine the Amount of MYCEL to Burn**: Calculate the amount of MYCEL tokens to burn using the collected fees and a specific rate, which considers factors including the price of MYCEL in accepted tokens, the staking rate, the inflation rate, and other set parameters. Concurrently, determine the token amounts to allocate to the community pool.
 3. **Burn the MYCEL Tokens**: Execute the burning process, removing the calculated MYCEL tokens from circulation. The amount burned translates into compensation for Validators, incentivizing them to operate nodes and contribute to the network.
 
 ## Burn Mechanism
