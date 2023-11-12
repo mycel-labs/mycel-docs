@@ -32,7 +32,7 @@ mycel start
 
 ### register-top-level-domain
 
-Register TopLevelDomain
+Registers a new top-level domain:
 
 ```
 myceld tx registry register-top-level-domain [name] [registration-period-in-year]
@@ -40,7 +40,7 @@ myceld tx registry register-top-level-domain [name] [registration-period-in-year
 
 ### register-second-level-domain
 
-Register SecondLevelDomain
+Registers a new second-level domain under a specified parent domain:
 
 ```
 myceld tx registry register-second-level-domain [name] [parent] [registration-period-in-year]
@@ -48,7 +48,7 @@ myceld tx registry register-second-level-domain [name] [parent] [registration-pe
 
 ### update-wallet-record
 
-Update wallet address record
+Updates the wallet address record for a domain:
 
 ```
 myceld tx registry update-wallet-record [name] [parent] [wallet-record-type] [value]
@@ -56,7 +56,7 @@ myceld tx registry update-wallet-record [name] [parent] [wallet-record-type] [va
 
 ### update-dns-record
 
-Update DNS record
+Updates the DNS record for a domain:
 
 ```
 myceld tx registry update-dns-record [name] [parent] [dns-record-type] [value]
@@ -64,15 +64,15 @@ myceld tx registry update-dns-record [name] [parent] [dns-record-type] [value]
 
 ### withdraw-registration-fee
 
-Withdraw the registration fee for your owned domain:
+Withdraws the registration fee for an owned domain:
 
 ```
-myceld tx registry withdraw-registration-fee [domain name]
+myceld tx registry withdraw-registration-fee [name]
 ```
 
-## extend-top-level-domain-expiration-date
+### extend-top-level-domain-expiration-date
 
-Extend the expiration date of top-level domain:
+Extends the expiration date of a top-level domain:
 
 ```
 myceld tx registry extend-top-level-domain-expiration-date [name] [extension-period-in-year]
@@ -82,7 +82,7 @@ myceld tx registry extend-top-level-domain-expiration-date [name] [extension-per
 
 ### list-top-level-domain
 
-List all top-level domains
+Displays a list of all registered top-level domains:
 
 ```
 myceld query registry list-top-level-domain
@@ -90,7 +90,7 @@ myceld query registry list-top-level-domain
 
 ### list-second-level-domain
 
-List all second-level domains
+Displays a list of all registered second-level domains:
 
 ```
 myceld q regisry list-second-level-domain
@@ -119,9 +119,9 @@ pagination:
   total: "0"
 ```
 
-## show-top-level-domain
+### show-top-level-domain
 
-Query domain records by top-level domain:
+Queries domain records by a specified top-level domain name:
 
 ```
 myceld q registry show-top-level-domain [tld name]
@@ -129,7 +129,7 @@ myceld q registry show-top-level-domain [tld name]
 
 ### show-second-level-domain
 
-Query domain records by second-level domain:
+Queries domain records by a specified second-level domain name and its parent:
 
 ```
 myceld q regisry show-second-level-domain [sld name] [parent domain]
@@ -161,7 +161,7 @@ domain:
 
 ### list-domain-ownership
 
-List all domain ownership
+Displays a list of all domain ownerships:
 
 ```
 myceld q registry list-domain-ownership
@@ -169,7 +169,7 @@ myceld q registry list-domain-ownership
 
 ### show-domain-ownership
 
-Query domain ownership by owner
+Queries domain ownership by the owner's address:
 
 ```
 myceld q registry show-domain-ownership [owner]
@@ -177,7 +177,7 @@ myceld q registry show-domain-ownership [owner]
 
 ### domain-registration-fee
 
-Query domain registration fee:
+Queries the registration fee for a domain:
 
 ```
 myceld q registry domain-registration-fee [name] [parent] [registration-period-in-year]
