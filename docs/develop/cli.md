@@ -35,7 +35,7 @@ mycel start
 Register TopLevelDomain
 
 ```
-myceld tx registry register-top-level-domain [name] [registration-period-in-year] [flags]
+myceld tx registry register-top-level-domain [name] [registration-period-in-year]
 ```
 
 ### register-second-level-domain
@@ -43,7 +43,7 @@ myceld tx registry register-top-level-domain [name] [registration-period-in-year
 Register SecondLevelDomain
 
 ```
-myceld tx registry register-second-level-domain [name] [parent] [registration-period-in-year] [flags]
+myceld tx registry register-second-level-domain [name] [parent] [registration-period-in-year]
 ```
 
 ### update-wallet-record
