@@ -80,9 +80,17 @@ myceld tx registry extend-top-level-domain-expiration-date [name] [extension-per
 
 ## Queries
 
+### list-top-level-domain
+
+List all top-level domains
+
+```
+myceld query registry list-top-level-domain
+```
+
 ### list-second-level-domain
 
-List all SLD domains
+List all second-level domains
 
 ```
 myceld q regisry list-second-level-domain
@@ -111,12 +119,20 @@ pagination:
   total: "0"
 ```
 
-### show-second-level-domain
+## show-top-level-domain
 
-Query domain records by domain
+Query domain records by top-level domain:
 
 ```
-myceld q regisry show-second-level-domain [name] [parent]
+myceld q registry show-top-level-domain [tld name]
+```
+
+### show-second-level-domain
+
+Query domain records by second-level domain:
+
+```
+myceld q regisry show-second-level-domain [sld name] [parent domain]
 ```
 
 exmaple:  
@@ -161,10 +177,10 @@ myceld q registry show-domain-ownership [owner]
 
 ### domain-registration-fee
 
-Query domain registration fee
+Query domain registration fee:
 
 ```
-myceld q registry domain-registration-fee [name] [parent]
+myceld q registry domain-registration-fee [name] [parent] [registration-period-in-year]
 ```
 
 Response:
@@ -172,35 +188,4 @@ Response:
 ```
 fee:
   amount: string
-```
-
-### is-registrable-domain
-
-Query a domain is registrable
-
-```
-myceld q registry is-registrable-domain [name] [parent]
-```
-
-Response:
-
-```
-errorMessage: string
-isRegstrable: bool
-```
-
-### domain-registration-fee
-
-Query domain regsitration fee
-
-```
-myceld query registry domain-registration-fee [name] [parent]
-```
-
-### is-registrable-domain
-
-Query a domain is registrable
-
-```
-myceld query registry is-registrable-domain [name] [parent]
 ```
