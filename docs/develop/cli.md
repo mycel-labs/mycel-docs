@@ -30,12 +30,20 @@ mycel start
 
 ## Transactions
 
-### register-domain
+### register-top-level-domain
 
-Register domain to mycel
+Register TopLevelDomain
 
 ```
-myceld tx registry register-domain [name] [parent] [registration-period-in-year]
+myceld tx registry register-top-level-domain [name] [registration-period-in-year] [flags]
+```
+
+### register-second-level-domain
+
+Register SecondLevelDomain
+
+```
+myceld tx registry register-second-level-domain [name] [parent] [registration-period-in-year] [flags]
 ```
 
 ### update-wallet-record
