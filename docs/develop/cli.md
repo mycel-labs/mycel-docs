@@ -70,6 +70,14 @@ Withdraw the registration fee for your owned domain:
 myceld tx registry withdraw-registration-fee [domain name]
 ```
 
+## extend-top-level-domain-expiration-date
+
+Extend the expiration date of top-level domain:
+
+```
+myceld tx registry extend-top-level-domain-expiration-date [name] [extension-period-in-year]
+```
+
 ## Queries
 
 ### list-second-level-domain
