@@ -62,6 +62,14 @@ Update DNS record
 myceld tx registry update-dns-record [name] [parent] [dns-record-type] [value]
 ```
 
+### withdraw-registration-fee
+
+Withdraw the registration fee for your owned domain:
+
+```
+myceld tx registry withdraw-registration-fee [domain name]
+```
+
 ## Queries
 
 ### list-second-level-domain
