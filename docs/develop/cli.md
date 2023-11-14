@@ -30,17 +30,25 @@ mycel start
 
 ## Transactions
 
-### register-domain
+### register-top-level-domain
 
-Register domain to mycel
+Registers a new top-level domain:
 
 ```
-myceld tx registry register-domain [name] [parent] [registration-period-in-year]
+myceld tx registry register-top-level-domain [name] [registration-period-in-year]
+```
+
+### register-second-level-domain
+
+Registers a new second-level domain under a specified parent domain:
+
+```
+myceld tx registry register-second-level-domain [name] [parent] [registration-period-in-year]
 ```
 
 ### update-wallet-record
 
-Update wallet address record
+Updates the wallet address record for a domain:
 
 ```
 myceld tx registry update-wallet-record [name] [parent] [wallet-record-type] [value]
@@ -48,80 +56,72 @@ myceld tx registry update-wallet-record [name] [parent] [wallet-record-type] [va
 
 ### update-dns-record
 
-Update DNS record
+Updates the DNS record for a domain:
 
 ```
 myceld tx registry update-dns-record [name] [parent] [dns-record-type] [value]
 ```
 
+### withdraw-registration-fee
+
+Withdraws the registration fee for an owned domain:
+
+```
+myceld tx registry withdraw-registration-fee [name]
+```
+
+### extend-top-level-domain-expiration-date
+
+Extends the expiration date of a top-level domain:
+
+```
+myceld tx registry extend-top-level-domain-expiration-date [name] [extension-period-in-year]
+```
+
 ## Queries
+
+### list-top-level-domain
+
+Displays a list of all registered top-level domains:
+
+```
+myceld query registry list-top-level-domain
+```
 
 ### list-second-level-domain
 
-List all SLD domains
+Displays a list of all registered second-level domains:
 
 ```
 myceld q regisry list-second-level-domain
 ```
 
-An example output:
+### show-top-level-domain
+
+Queries domain records by a specified top-level domain name:
 
 ```
-domain:
-- DNSRecords: {}
-  expirationDate: "0"
-  metadata: {}
-  name: cel
-  owner: ""
-  parent: ""
-  walletRecords: {}
-- DNSRecords: {}
-  expirationDate: "1711123442987026000"
-  metadata: {}
-  name: foo
-  owner: cosmos1tk8gg20pcdp9alnnn6a84tdycf7pa2rjg8kwmc
-  parent: cel
-  walletRecords: {}
-pagination:
-  next_key: null
-  total: "0"
+myceld q registry show-top-level-domain [tld name]
 ```
 
 ### show-second-level-domain
 
-Query domain records by domain
+Queries domain records by a specified second-level domain name and its parent:
 
 ```
-myceld q regisry show-second-level-domain [name] [parent]
+myceld q regisry show-second-level-domain [sld name] [parent domain]
 ```
 
 exmaple:  
 Query `foo.cel`
 
 ```
-myceld q registry show-domain foo cel
-```
-
-Output:
-
-```
-domain:
-  DNSRecords: {}
-  expirationDate: "1711123442987026000"
-  metadata: {}
-  name: foo
-  owner: cosmos1tk8gg20pcdp9alnnn6a84tdycf7pa2rjg8kwmc
-  parent: cel
-  walletRecords:
-    ETHEREUM_MAINNET:
-      WalletAddressFormat: ETHEREUM
-      value: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
-      walletRecordType: ETHEREUM_MAINNET
+myceld q regisry show-second-level-domain foo cel
 ```
 
 ### list-domain-ownership
 
-List all domain ownership
+Displays a list of all domain ownerships:
 
 ```
 myceld q registry list-domain-ownership
@@ -129,7 +129,7 @@ myceld q registry list-domain-ownership
 
 ### show-domain-ownership
 
-Query domain ownership by owner
+Queries domain ownership by the owner's address:
 
 ```
 myceld q registry show-domain-ownership [owner]
@@ -137,46 +137,8 @@ myceld q registry show-domain-ownership [owner]
 
 ### domain-registration-fee
 
-Query domain registration fee
+Queries the registration fee for a domain:
 
 ```
-myceld q registry domain-registration-fee [name] [parent]
-```
-
-Response:
-
-```
-fee:
-  amount: string
-```
-
-### is-registrable-domain
-
-Query a domain is registrable
-
-```
-myceld q registry is-registrable-domain [name] [parent]
-```
-
-Response:
-
-```
-errorMessage: string
-isRegstrable: bool
-```
-
-### domain-registration-fee
-
-Query domain regsitration fee
-
-```
-myceld query registry domain-registration-fee [name] [parent]
-```
-
-### is-registrable-domain
-
-Query a domain is registrable
-
-```
-myceld query registry is-registrable-domain [name] [parent]
+myceld q registry domain-registration-fee [name] [parent] [registration-period-in-year]
 ```
