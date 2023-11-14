@@ -15,36 +15,113 @@ Registry module provides the following feature:
 
 Registry module emits the following events:
 
-### RegisterDomain
+### `types.EventTypeRegisterTopLevelDomain`
 
-Event Type: `register-domain`  
-Attributes:
+This event is emitted after a top-level domain is successfully registered and is part of a system for managing domain registrations. It is triggered by the `EmitRegisterTopLevelDomainEvent` function.
 
-- `name`: Domain name
-- `parent`: Domain parent
-- `registration-period-in-year`: Registration period in year
-- `expiration-date`: Expiration date in Unix time
-- `domain-level`: Domain level
+#### Attributes:
 
-### UpdateWalletRecord
+- `name`
+  - The value is the name of the registered top-level domain.
+- `expiration-date`
+  - The value is the expiration date of the domain registration.
+- `max-subdomain-registrations`
+  - The value is the maximum number of subdomain registrations allowed under this domain.
+- `total-registration-fee`
+  - The value is the total fee paid for registering the top-level domain.
+- `burn-weight`
+  - This value represents the weight of the fee that will be burned. The burn weight is calculated using a formula that accounts for the rate of staking and the rate of inflation in the system, as detailed in the [Mycel Documentation](https://docs.mycel.domains/overview/tokenomics#calculating-the-burn-amount).
+- `registration-fee-to-burn`
+  - The value is the portion of the registration fee that will be burned, based on the burn weight.
+- `registration-fee-to-treasury`
+  - The value is the portion of the registration fee that will be directed to the treasury.
 
-Event Type: `update-wallet-record`  
-Attributes:
+This event captures key details of the registration of a top-level domain, including financial aspects and domain limits.
 
-- `name`: Domain name
-- `parent`: Domain parent
-- `wallet-record-type`: Wallet record type
-- `value`: Wallet address
+### `types.EventTypeRegisterSecondLevelDomain`
 
-### UpdateDNSRecord
+This event is emitted following the successful registration of a second-level domain as part of a domain management system. It is triggered by the `EmitRegisterSecondLevelDomainEvent` function.
 
-Event Type: `update-dns-record`  
-Attributes:
+#### Attributes:
 
-- `name`: Domain name
-- `parent`: Domain parent
-- `dns-record-type`: Wallet record type
-- `value`: Wallet address
+- `name`
+  - The value is the name of the registered second-level domain.
+- `parent`
+  - The value is the parent domain of the registered second-level domain.
+- `expiration-date`
+  - The value is the expiration date of the second-level domain registration.
+- `registration-fee`
+  - The value is the fee paid for registering the second-level domain.
+
+This event captures key details of the registration of a second-level domain, including its relationship to the parent domain and financial details.
+
+### `types.EventTypeUpdateWalletRecord`
+
+This event is emitted when a wallet record is updated, as part of a system managing wallet records. It is triggered by the `EmitUpdateWalletRecordEvent` function.
+
+#### Attributes:
+
+- `name`
+  - The value is the name of the domain associated with the wallet record being updated.
+- `parent`
+  - The value is the parent domain of the domain associated with the wallet record.
+- `wallet-record-type`
+  - The value indicates the type of wallet record being updated.
+- `value`
+  - The value is the new or updated information in the wallet record.
+
+This event captures key details of wallet record updates, including the domain name and parent, the type of record being updated, and the new value of the record.
+
+### `types.EventTypeUpdateDnsRecord`
+
+This event is emitted when a DNS record is updated within a domain management system. It is triggered by the `EmitUpdateDnsRecordEvent` function.
+
+#### Attributes:
+
+- `name`
+  - The value is the name of the domain for which the DNS record is being updated.
+- `parent`
+  - The value is the parent domain of the domain for which the DNS record is being updated.
+- `dns-record-type`
+  - The value indicates the type of DNS record being updated.
+- `value`
+  - The value is the new or updated content of the DNS record.
+
+This event captures key details of DNS record updates, including the domain and parent domain names, the specific type of DNS record being altered, and the updated record content.
+
+### `types.EventTypeWithdrawRegistrationFee`
+
+This event is emitted when registration fees are withdrawn in a domain management system. It is triggered by the `EmitWithdrawRegistrationFeeEvent` function.
+
+#### Attributes:
+
+- `name`
+  - The value is the name of the domain from which the registration fees are being withdrawn.
+- `domain-fee`
+  - The value is the amount of registration fees withdrawn.
+
+This event captures key details of the withdrawal process, including the domain name and the amount of fees withdrawn, providing transparency and record-keeping for financial transactions within the system.
+
+### `types.EventTypeExtendTopLevelDomainExpirationDate`
+
+This event is emitted when the expiration date of a top-level domain is extended in a domain management system. It is triggered by the `EmitExtendTopLevelDomainExpirationDateEvent` function.
+
+#### Attributes:
+
+- `name`
+  - The value is the name of the top-level domain whose expiration date is being extended.
+- `expiration-date`
+  - The value is the new expiration date of the top-level domain.
+- `total-registration-fee`
+  - The value is the total fee paid for extending the domain's expiration date.
+- `burn-weight`
+  - The value represents the weight of the fee that will be burned.
+- `registration-fee-to-burn`
+  - The value is the portion of the registration fee that will be burned.
+- `registration-fee-to-treasury`
+  - The value is the portion of the registration fee that will be directed to the treasury.
+
+This event captures key details of the process to extend the expiration date of a top-level domain, including the new expiration date, the associated fees, and the financial distribution of these fees.
 
 ## Transactions
 
