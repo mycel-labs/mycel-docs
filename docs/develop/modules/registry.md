@@ -125,17 +125,25 @@ This event captures key details of the process to extend the expiration date of 
 
 ## Transactions
 
-### register-domain
+### register-top-level-domain
 
-Register domain to mycel
+Registers a new top-level domain:
 
 ```
-myceld tx registry register-domain [name] [parent] [registration-period-in-year]
+myceld tx registry register-top-level-domain [name] [registration-period-in-year]
+```
+
+### register-second-level-domain
+
+Registers a new second-level domain under a specified parent domain:
+
+```
+myceld tx registry register-second-level-domain [name] [parent] [registration-period-in-year]
 ```
 
 ### update-wallet-record
 
-Update wallet address record
+Updates the wallet address record for a domain:
 
 ```
 myceld tx registry update-wallet-record [name] [parent] [wallet-record-type] [value]
@@ -143,10 +151,26 @@ myceld tx registry update-wallet-record [name] [parent] [wallet-record-type] [va
 
 ### update-dns-record
 
-Update DNS record
+Updates the DNS record for a domain:
 
 ```
 myceld tx registry update-dns-record [name] [parent] [dns-record-type] [value]
+```
+
+### withdraw-registration-fee
+
+Withdraws the registration fee for an owned domain:
+
+```
+myceld tx registry withdraw-registration-fee [name]
+```
+
+### extend-top-level-domain-expiration-date
+
+Extends the expiration date of a top-level domain:
+
+```
+myceld tx registry extend-top-level-domain-expiration-date [name] [extension-period-in-year]
 ```
 
 ## Queries
