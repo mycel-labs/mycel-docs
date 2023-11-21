@@ -93,7 +93,7 @@ myceld query registry list-top-level-domain
 Displays a list of all registered second-level domains:
 
 ```
-myceld q regisry list-second-level-domain
+myceld q registry list-second-level-domain
 ```
 
 ### show-top-level-domain
@@ -109,14 +109,14 @@ myceld q registry show-top-level-domain [tld name]
 Queries domain records by a specified second-level domain name and its parent:
 
 ```
-myceld q regisry show-second-level-domain [sld name] [parent domain]
+myceld q registry show-second-level-domain [sld name] [parent domain]
 ```
 
 exmaple:  
 Query `foo.cel`
 
 ```
-myceld q regisry show-second-level-domain foo cel
+myceld q registry show-second-level-domain foo cel
 ```
 
 ### list-domain-ownership
