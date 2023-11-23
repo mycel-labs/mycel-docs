@@ -24,7 +24,7 @@ Resolver module provides the following feature:
 Query allRecords
 
 ```
-myceld query resolver all-records [domainName] [domainParent] [flags]
+myceld query resolver all-records [domainName] [domainParent]
 ```
 
 #### Response
@@ -83,7 +83,7 @@ myceld query resolver all-records [domainName] [domainParent] [flags]
 Query DNS record
 
 ```
-myceld query resolver dns-record [domainName] [domainParent] [dns-record-type] [flags]
+myceld query resolver dns-record [domainName] [domainParent] [dns-record-type]
 ```
 
 #### Response
