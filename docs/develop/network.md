@@ -6,21 +6,21 @@ sidebar_position: 4
 
 ## Devnet
 
-| Label               | Value                                                                                           |
-| ------------------- | ----------------------------------------------------------------------------------------------- |
-| Chain ID            | mycel-dev                                                                                       |
-| RPC Endpoint        | [https://rpc.dev.mycel.domains/](https://rpc.dev.mycel.domains/)                                |
-| Light Client Daemon | [https://lcd.dev.mycel.domains/](https://lcd.dev.mycel.domains/)                                |
-| Genesis             | [genesis.json](https://github.com/mycel-domain/mycel/releases/download/v0.1.1/dev_genesis.json) |
+| Label               | Value                                                                      |
+| ------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --- |
+| Chain ID            | mycel-dev                                                                  |
+| RPC Endpoint        | [http://seed.dev.mycel.domains:1317](http://seed.dev.mycel.domains:1317)   |
+| Light Client Daemon | [http://seed.dev.mycel.domains:26657](http://seed.dev.mycel.domains:26657) |
+| <!--                | Genesis                                                                    | [genesis.json](https://github.com/mycel-domain/mycel/releases/download/v0.1.1/dev_genesis.json) | --> |
 
 ## Testnet
 
-| Label               | Value                                                                                              |
-| ------------------- | -------------------------------------------------------------------------------------------------- |
-| Chain ID            | mycel-shugyo                                                                                       |
-| RPC Endpoint        | [https://rpc.shugyo.mycel.domains/](https://rpc.shugyo.mycel.domains/)                             |
-| Light Client Daemon | [https://lcd.shugyo.mycel.domains/](https://lcd.shugyo.mycel.domains/)                             |
-| Genesis             | [genesis.json](https://github.com/mycel-domain/mycel/releases/download/v0.1.1/shugyo_genesis.json) |
+| Label               | Value                                                                            |
+| ------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --- |
+| Chain ID            | mycel-shugyo                                                                     |
+| RPC Endpoint        | [http://seed.shugyo.mycel.domains:1317](http://seed.shugyo.mycel.domains:1317)   |
+| Light Client Daemon | [http://seed.shugyo.mycel.domains:26657](http://seed.shugyo.mycel.domains:26657) |
+| <!--                | Genesis                                                                          | [genesis.json](https://github.com/mycel-domain/mycel/releases/download/v0.1.1/shugyo_genesis.json) | --> |
 
 ### CLI Configuration
 
