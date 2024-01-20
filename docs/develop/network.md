@@ -9,16 +9,16 @@ sidebar_position: 4
 | Label               | Value                                                                      |
 | ------------------- | -------------------------------------------------------------------------- |
 | Chain ID            | mycel-dev                                                                  |
-| RPC Endpoint        | [http://seed.dev.mycel.domains:1317](http://seed.dev.mycel.domains:1317)   |
-| Light Client Daemon | [http://seed.dev.mycel.domains:26657](http://seed.dev.mycel.domains:26657) |
+| Light Client Daemon | [http://seed.dev.mycel.domains:1317](http://seed.dev.mycel.domains:1317)   |
+| RPC Endpoint        | [http://seed.dev.mycel.domains:26657](http://seed.dev.mycel.domains:26657) |
 
 ## Testnet
 
 | Label               | Value                                                                            |
 | ------------------- | -------------------------------------------------------------------------------- |
 | Chain ID            | mycel-shugyo                                                                     |
-| RPC Endpoint        | [http://seed.shugyo.mycel.domains:1317](http://seed.shugyo.mycel.domains:1317)   |
-| Light Client Daemon | [http://seed.shugyo.mycel.domains:26657](http://seed.shugyo.mycel.domains:26657) |
+| Light Client Daemon | [http://seed.shugyo.mycel.domains:1317](http://seed.shugyo.mycel.domains:1317)   |
+| RPC Endpoint        | [http://seed.shugyo.mycel.domains:26657](http://seed.shugyo.mycel.domains:26657) |
 
 ### CLI Configuration
 
