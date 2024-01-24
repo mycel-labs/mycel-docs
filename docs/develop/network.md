@@ -6,11 +6,11 @@ sidebar_position: 4
 
 ## Devnet
 
-| Label               | Value                                                                    |
-| ------------------- | ------------------------------------------------------------------------ |
-| Chain ID            | mycel-dev                                                                |
-| Light Client Daemon | [https://lcd.seed.dev.mycel.domains](https://lcd.seed.dev.mycel.domains) |
-| RPC Endpoint        | [https://rpc.seed.dev.mycel.domains](https://rpc.seed.dev.mycel.domains) |
+| Label               | Value                                                          |
+| ------------------- | -------------------------------------------------------------- |
+| Chain ID            | mycel-dev                                                      |
+| Light Client Daemon | [https://lcd.seed.dev.mycel.id](https://lcd.seed.dev.mycel.id) |
+| RPC Endpoint        | [https://seed.dev.mycel.id](https://seed.dev.mycel.id)         |
 
 ### CLI Configuration
 
