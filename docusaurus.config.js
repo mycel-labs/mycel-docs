@@ -37,6 +37,7 @@ function defineSection(section, options = {}) {
 const SECTIONS = [
   defineSection('overview'),
   defineSection('develop'),
+  defineSection('validate'),
 ];
 
 
@@ -130,6 +131,12 @@ const config = {
             position: 'left',
             label: 'Develop',
           },
+          {
+            to: '/validate',
+            position: 'left',
+            label: 'Validate',
+          },
+
           {
             href: 'https://github.com/mycel-domain',
             label: 'GitHub',

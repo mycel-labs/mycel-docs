@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Validator
+# Node
 
 ## Run Local Node with CLI
 
