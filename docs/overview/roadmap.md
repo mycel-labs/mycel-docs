@@ -15,10 +15,10 @@ sidebar_position: 6
 ## 2023Q3~Q4 : Testnet Release
 
 - Support TLD(Customizable domains) registration
-- Release Name Service Aggrigator (Integration with other name services)
 - Support CosmWasm smart contracts
 
-## 2023Q4 ~ 2024Q2 : Mainnet Release
+## 2024Q1
 
-- Support resolution via IBC and EVM
-- Support ICP/ IPFS Gateway
+- Release Domain-based Transfer on Testnet
+
+## 2024Q2~Q3 : Mainnet Release
