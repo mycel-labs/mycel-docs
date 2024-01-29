@@ -136,12 +136,17 @@ const config = {
             position: 'left',
             label: 'Validate',
           },
-
           {
             href: 'https://github.com/mycel-domain',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://dashboard.mycel.domains/',
+            label: 'Dashboard',
+            position: 'right',
+          },
+
         ],
       },
       colorMode: {
