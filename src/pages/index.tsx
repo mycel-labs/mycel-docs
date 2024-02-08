@@ -11,6 +11,7 @@ import {
   ChevronRightSquare,
   CheckCheck,
   PcCase,
+  LayoutDashboard,
 } from 'lucide-react';
 
 export default function Home(): JSX.Element {
@@ -31,6 +32,13 @@ export default function Home(): JSX.Element {
                 description:
                   'Discover the innovative bridge Mycel creates between Web2 and Web3, offering a seamless ID infrastructure for digital identity management.',
                 link: '/overview',
+              },
+              {
+                title: 'Register Domain',
+                icon: <LayoutDashboard />,
+                description:
+                  'Use the dashboard to easily register and manage your Mycel domain, streamlining your digital identity across platforms.',
+                link: '/overview/dashboard',
               },
               {
                 title: 'Mycel ID',
