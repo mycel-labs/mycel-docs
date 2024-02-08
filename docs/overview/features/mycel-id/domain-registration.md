@@ -1,6 +1,6 @@
 # Domain Registration
 
-![domain](../../assets/domain_top.png)
+![domain](../../../assets/domain_top.png)
 
 Domain registration is a crucial aspect of the Mycel project.
 It provides users with the ability to secure unique domain names that can be used to represent their websites, services, or digital assets on the decentralized web. The Mycel domain registration process consists of two levels: Top-Level Domains (TLDs) and Second-Level Domains (SLDs). Here, we will delve into the details of each level and the registration process.
@@ -9,7 +9,7 @@ It provides users with the ability to secure unique domain names that can be use
 
 ### Top-Level Domains (TLDs)
 
-![tokenomics](../../assets/tokenomics.png)
+![tokenomics](../../../assets/tokenomics.png)
 TLDs are the highest level in the domain name hierarchy, such as .com, .org, or .net. In Mycel, validators are responsible for registering TLDs.
 The process of issuing a TLD within the Mycel system involves several key steps:
 

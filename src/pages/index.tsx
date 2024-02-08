@@ -45,14 +45,14 @@ export default function Home(): JSX.Element {
                 icon: <Fingerprint />,
                 description:
                   'Learn how Mycel ID revolutionizes digital identity with seamless integration across Web2 and Web3 platforms, enhancing user experience and privacy.',
-                link: '/overview/mycel-id',
+                link: '/overview/features/mycel-id',
               },
               {
                 title: 'Domain-based Transfer',
                 icon: <Repeat2 />,
                 description:
                   "Explore the benefits of domain-based transactions, enhancing privacy and user experience in the digital space with Mycel's innovative technology.",
-                link: '/overview/domain-based-transfer',
+                link: '/overview/features/domain-based-transfer',
               },
             ]}
           />

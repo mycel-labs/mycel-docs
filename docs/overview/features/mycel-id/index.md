@@ -8,18 +8,18 @@ Mycel ID is at the heart of the Mycel infrastructure, serving as a unique digita
 It enables users to register and manage their Web3 identities effortlessly, merging the convenience of Web2 identity systems with the security and decentralization of Web3.
 Mycel ID supports various authentication methods, including biometric (fingerprint) and traditional methods (Google, Email, etc.), ensuring that users have a smooth transition to and interaction within the Web3 space. With its integration of off-chain and on-chain elements and native DNS support, Mycel ID lays the foundation for a decentralized, yet user-friendly platform that harmonizes the best aspects of Web2 and Web3 technologies.
 
-![multiwallet](../../assets/multiwallet.png)
+![multiwallet](../../../assets/multiwallet.png)
 
 ### Customizable Domains
 
-![tokenomics](../../assets/tokenomics.png)
+![tokenomics](../../../assets/tokenomics.png)
 Mycel offers a tiered domain registration system including Top-Level Domains (TLDs), Second-Level Domains (SLDs).
 This system is attractive to organizations with communities seeking more flexible and customizable naming services.
 [See more](./domain-registration)
 
 ### Interoperability
 
-![interoperability](../../assets/interchain.png)
+![interoperability](../../../assets/interchain.png)
 Mycel supports communicate with other blockchain network like:
 
 - Ethereum and other EVM compatible chains
@@ -40,7 +40,7 @@ It is possible to resolve multiple addresses for each chain, such as contract wa
 
 ### Multiple Protocols Support
 
-![multiple-prortocols](../../assets/protocols.png)
+![multiple-prortocols](../../../assets/protocols.png)
 Mycel caters to different user needs by supporting various protocols and a range of record types.
 Supported record types:
 

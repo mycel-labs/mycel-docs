@@ -1,6 +1,6 @@
 # Name Resolution
 
-![protocols](../../assets/protocols.png)
+![protocols](../../../assets/protocols.png)
 
 One of the key features of Mycel is its domain name resolution system, which allows users to resolve domain names through various protocols, such as DNS, smart contracts, and RPC.
 This document provides an overview of the domain name resolution process in Mycel and its supported protocols.
@@ -15,7 +15,7 @@ Each node within the Mycel network provides a DNS server to facilitate domain na
 
 Mycel's Name Service Contracts (NSCs) are deployed on supported blockchain networks, such as EVM-compatible chains. Users can interact with NSCs to resolve domain names from within their smart contracts.
 
-![NSC](../../assets/nsc.svg)
+![NSC](../../../assets/nsc.svg)
 
 1. Users can call the `resolve()` function on an NSC from their smart contract.
 2. The NSC emits an `onRequest` event upon receiving the resolve request.
