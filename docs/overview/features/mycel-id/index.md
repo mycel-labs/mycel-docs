@@ -15,7 +15,6 @@ Mycel ID supports various authentication methods, including biometric (fingerpri
 ![tokenomics](../../../assets/tokenomics.png)
 Mycel offers a tiered domain registration system including Top-Level Domains (TLDs), Second-Level Domains (SLDs).
 This system is attractive to organizations with communities seeking more flexible and customizable naming services.
-[See more](./domain-registration)
 
 ### Interoperability
 
@@ -58,7 +57,6 @@ And, you can resolve domains via the following protocols:
 
 You will be able to manage complex addresses with one domain.
 This means that it is possible to track multiple chains of activity under one domain.
-[See more](./name-resolution)
 
 ## Domain Registration
 
