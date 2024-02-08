@@ -23,10 +23,16 @@ In the Mycel project, the process of domain name registration is centrally gover
 
 Validators constitute a pivotal part of Mycel, with numerous advantages and incentives being provided. In the following, we elucidate how validators procure rewards, the incentives in place for maintaining network security and stability, the specific role validators play within the network, and the impact thereof on the token economics.
 
+Becoming a validator? [Read here](/validate)
+
 #### Rewards and Incentives:
 
-1. **Earning Rewards:** Validators are rewarded with MYCEL tokens for committing new blocks and storing data, the reward being calculated as a specified percentage of the total stake. Additionally, they receive transaction fees as rewards for processing transactions.
-2. **Governance:** Validators engage in discussions regarding network rules and policies, participate in voting, and collaboratively shape the network's governance with the community. As token holders, validators vote on governance proposals, collectively determining the network's direction. The token economics facilitates incentives to validators through allocation of voting rights and a reward system, thereby enhancing the network's safety and efficiency. This structure motivates validators to maintain the network's integrity and to actively engage in the governance process.
+1. **Earning Rewards**
+   Validators are rewarded with MYCEL tokens for committing new blocks and storing data, the reward being calculated as a specified percentage of the total stake. Additionally, they receive transaction fees as rewards for processing transactions.
+   Validators may have the option to set a commission rate on the rewards that are distributed to their delegators. This commission is meant to cover the operational expenses of running a validator node and to compensate for the validator's services.
+   The commission structure and rates can be determined by the validator within the parameters set by the network governance. Validators should transparently communicate their commission rates to their delegators, ensuring that there is clarity and understanding about the reward distribution.
+2. **Governance**
+   Validators engage in discussions regarding network rules and policies, participate in voting, and collaboratively shape the network's governance with the community. As token holders, validators vote on governance proposals, collectively determining the network's direction. The token economics facilitates incentives to validators through allocation of voting rights and a reward system, thereby enhancing the network's safety and efficiency. This structure motivates validators to maintain the network's integrity and to actively engage in the governance process.
 
 ### Delegator
 
