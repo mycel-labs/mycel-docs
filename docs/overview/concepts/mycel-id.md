@@ -1,24 +1,24 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Mycel ID
 
-Mycel ID is at the heart of the Mycel infrastructure, serving as a unique digital identifier in the Web3 world.
-It enables users to register and manage their Web3 identities effortlessly, merging the convenience of Web2 identity systems with the security and decentralization of Web3.
-Mycel ID supports various authentication methods, including biometric (fingerprint) and traditional methods (Google, Email, etc.), ensuring that users have a smooth transition to and interaction within the Web3 space. With its integration of off-chain and on-chain elements and native DNS support, Mycel ID lays the foundation for a decentralized, yet user-friendly platform that harmonizes the best aspects of Web2 and Web3 technologies.
+Mycel ID is at the heart of the Mycel infrastructure, serving as a unique digital identifier in the multi-chain world, structured in a domain-like format with Top-Level Domains (TLD) and Second-Level Domains (SLD).
 
-![multiwallet](../../../assets/multiwallet.png)
+Managed on-chain within Mycel's Tendermint-based blockchain, Mycel ID ensures secure, decentralized control over these digital identities. This on-chain management system underscores the platform's commitment to security and decentralization, leveraging the robustness of Tendermint's consensus mechanism. The domain-like format of Mycel ID not only enhances the intuitiveness and memorability of the identities but also mirrors the familiar structure of internet domains, facilitating an easy transition for users.
 
-### Customizable Domains
+By merging the convenience of Web2 identity systems with the inherent security and decentralization of Web3, and supporting a variety of authentication methods, Mycel ID offers a seamless bridge to the Web3 space, ensuring users can manage their identities effortlessly and securely across the blockchain landscape.
 
-![tokenomics](../../../assets/tokenomics.png)
-Mycel offers a tiered domain registration system including Top-Level Domains (TLDs), Second-Level Domains (SLDs).
+### Customizable IDs
+
+![domain](../../assets/domain_top.png)
+Mycel ID is serving as a unique digital identifier in the multi-chain world, structured in a domain-like format with Top-Level Domains (TLD) and Second-Level Domains (SLD).
 This system is attractive to organizations with communities seeking more flexible and customizable naming services.
 
 ### Interoperability
 
-![interoperability](../../../assets/interchain.png)
+![multiwallet](../../assets/multiwallet.png)
 Mycel supports communicate with other blockchain network like:
 
 - Ethereum and other EVM compatible chains
@@ -39,7 +39,6 @@ It is possible to resolve multiple addresses for each chain, such as contract wa
 
 ### Multiple Protocols Support
 
-![multiple-prortocols](../../../assets/protocols.png)
 Mycel caters to different user needs by supporting various protocols and a range of record types.
 Supported record types:
 
@@ -59,8 +58,6 @@ You will be able to manage complex addresses with one domain.
 This means that it is possible to track multiple chains of activity under one domain.
 
 ## Domain Registration
-
-![domain](../../../assets/domain_top.png)
 
 Domain registration is a crucial aspect of the Mycel project.
 It provides users with the ability to secure unique domain names that can be used to represent their websites, services, or digital assets on the decentralized web. The Mycel domain registration process consists of two levels: Top-Level Domains (TLDs) and Second-Level Domains (SLDs). Here, we will delve into the details of each level and the registration process.

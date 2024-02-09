@@ -27,7 +27,6 @@ function defineSection(section, options = {}) {
       id: section,
       sidebarPath: require.resolve('./sidebars.js'),
       breadcrumbs: false,
-      editUrl: 'https://github.com/mycel-domain/mycel-docs',
       ...defaultSettings,
       ...options,
     }),
@@ -160,8 +159,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/myceldomain',
+                label: 'X',
+                href: 'https://x.com/myceldomain',
               },
               {
                 label: 'Discord',

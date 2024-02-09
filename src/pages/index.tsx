@@ -16,10 +16,7 @@ import {
 
 export default function Home(): JSX.Element {
   return (
-    <Layout
-      title="Home"
-      description="Welcome to Mycel Documentation - Bridging Web2 and Web3 through Seamless ID Infrastructure"
-    >
+    <Layout title="Home" description="Welcome to Mycel Documentation ">
       <main>
         <Hero />
         <div className="container py-12">
@@ -30,7 +27,7 @@ export default function Home(): JSX.Element {
                 title: 'Mycel Overview',
                 icon: <Bolt />,
                 description:
-                  'Discover the innovative bridge Mycel creates between Web2 and Web3, offering a seamless ID infrastructure for digital identity management.',
+                  'Discover Mycel, simplifying multi-chain complexity and welcoming billions to blockchain without the hassle of gas fees and transactions.',
                 link: '/overview',
               },
               {
@@ -38,21 +35,21 @@ export default function Home(): JSX.Element {
                 icon: <LayoutDashboard />,
                 description:
                   'Use the dashboard to easily register and manage your Mycel domain, streamlining your digital identity across platforms.',
-                link: '/overview/dashboard',
+                link: '/overview/products/dashboard',
               },
               {
                 title: 'Mycel ID',
                 icon: <Fingerprint />,
                 description:
                   'Learn how Mycel ID revolutionizes digital identity with seamless integration across Web2 and Web3 platforms, enhancing user experience and privacy.',
-                link: '/overview/features/mycel-id',
+                link: '/overview/concepts/mycel-id',
               },
               {
-                title: 'Domain-based Transfer',
+                title: 'ID-based Transfer',
                 icon: <Repeat2 />,
                 description:
-                  "Explore the benefits of domain-based transactions, enhancing privacy and user experience in the digital space with Mycel's innovative technology.",
-                link: '/overview/features/domain-based-transfer',
+                  "Explore the benefits of Id-based transactions, enhancing privacy and user experience in the digital space with Mycel's innovative technology.",
+                link: '/overview/concepts/id-based-transfer',
               },
             ]}
           />
