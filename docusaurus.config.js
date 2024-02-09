@@ -27,7 +27,6 @@ function defineSection(section, options = {}) {
       id: section,
       sidebarPath: require.resolve('./sidebars.js'),
       breadcrumbs: false,
-      editUrl: 'https://github.com/mycel-domain/mycel-docs',
       ...defaultSettings,
       ...options,
     }),
