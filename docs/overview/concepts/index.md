@@ -6,7 +6,6 @@ sidebar_position: 2
 
 ## Mycel ID
 
-![domain](../../assets/multiwallet.png)
 Mycel ID is at the heart of the Mycel infrastructure, serving as a unique digital identifier in the multi-chain world, structured in a domain-like format with Top-Level IDs (TLD) and Second-Level IDs (SLD).
 
 Managed on-chain within Mycel's Tendermint-based blockchain, Mycel ID ensures secure, decentralized control over these digital identities. This on-chain management system underscores the platform's commitment to security and decentralization, leveraging the robustness of Tendermint's consensus mechanism. The domain-like format of Mycel ID not only enhances the intuitiveness and memorability of the identities but also mirrors the familiar structure of internet domains, facilitating an easy transition for users.
