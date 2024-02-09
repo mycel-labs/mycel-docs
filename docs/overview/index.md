@@ -6,25 +6,31 @@ sidebar_position: 1
 
 ## What is Mycel?
 
-Mycel is an innovative identity infrastructure designed to bridge the gap between Web2 and Web3 technologies. It's a platform that simplifies the integration and management of digital identities, allowing for seamless interaction between traditional web applications and the decentralized web. Mycel achieves this by enabling the creation of Web3 IDs from existing Web2 IDs, such as those from Google or Apple, and facilitating the linkage of these Web3 IDs (DIDs or Wallets) with existing Web2 applications.
+Mycel is an intent-centric interface to solve complexity in multi-chain and bring bilion users for Web3 by eliminating the need for them to understand complex blockchain concepts like gas fees and transactions.
+
+By adopting Mycel's intent-centric interface, protocols like Restaking Protocols and Decentralized Exchanges (DEX) can provide a user-friendly experience, where actions are reduced to simple intents that hide the complex details of blockchain operations.
+This approach enables a broader range of applications to become more user-friendly, inviting a vast new audience to explore.
 ![overview](../assets/overview.png)
 
-## Why Mycel?
+## What is Intent?
 
-Mycel addresses the complexity and fragmentation that currently exists in the digital identity space. It recognizes the need for a more user-friendly, secure, and interoperable approach to managing digital identities across different platforms and ecosystems. Here are the reasons why Mycel stands out:
+In the context of software and blockchain technologies, an "intent" refers to a user's declared goal or desired outcome without specifying the procedural steps needed to achieve that outcome. It's a high-level declaration of what the user wants to do, such as sending tokens to someone, purchasing an item, or accessing a service. The concept of intent abstracts away the complexity of the operations required to fulfill these desires, focusing instead on the end result that the user wants to achieve.
 
-### Seamless Integration
+For exmaple,
+Intent: "I want to send 5 ETH to Alice."
 
-Mycel ensures the effortless creation and management of Web3 IDs, integrating with existing Web2 IDs. This integration is pivotal in fostering a smoother transition for users and developers from traditional web applications to decentralized applications (dApps).
+- Traditional Method: The user would need to manually initiate a transaction, enter Alice's wallet address, specify the amount (5 ETH), set the gas fee, and sign the transaction.
+- Intent-Centric Approach: The user simply declares the intent to send 5 ETH to Alice, and the platform automatically handles the details, such as finding Alice's wallet address and executing the transaction.
 
-### User-Centric Approach
+## What is an Intent-Centric Interface?
 
-Mycel prioritizes the user experience. It offers straightforward onboarding processes with familiar authentication methods, enhancing the accessibility of Web3 technologies for a broader audience.
+An intent-centric interface, as exemplified by Mycel, is a design paradigm that prioritizes these user intents in the interaction model. Instead of requiring users to understand and navigate the complex processes underlying their actions (such as blockchain transactions), an intent-centric interface allows users to simply state their "intent" and relies on the system to figure out how to execute it. This approach significantly simplifies the user experience, making technology like blockchain more accessible and user-friendly.
+How Mycel Implements an Intent-Centric Interface
 
-### Enhanced Security and Privacy
+Mycel leverages the intent-centric model to enhance interactions within the blockchain ecosystem, particularly focusing on identity and transaction management. Here’s how Mycel embodies this approach:
 
-The platform provides robust security measures and prioritizes user privacy. Features like Domain-based Transfer ensure that users can conduct transactions securely without exposing their actual wallet addresses.
+- Simplified Digital Identity: Users can manage their digital identities across Web2 and Web3 platforms without delving into technical details. By expressing the intent to, for example, link a Web2 identity with a Web3 wallet, Mycel automates the underlying processes.
 
-### Interoperability and Flexibility
+- ID-Based Transactions: Mycel allows users to perform transactions using domain names instead of complex blockchain addresses. Users express an intent like “send tokens to domain.name,” and Mycel handles the resolution and execution of these transactions, abstracting away the technicalities.
 
-Mycel's infrastructure supports multi-chain compatibility and domain-based transactions, allowing users to interact with various blockchain networks efficiently. This interoperability is crucial for the widespread adoption and growth of Web3 applications.
+- Multi-Chain Operations: By supporting intents that span across multiple blockchains, Mycel facilitates a seamless experience for users wanting to interact with different blockchain ecosystems without worrying about the specifics of each chain.

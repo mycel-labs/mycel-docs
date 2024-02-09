@@ -160,8 +160,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/myceldomain',
+                label: 'X',
+                href: 'https://x.com/myceldomain',
               },
               {
                 label: 'Discord',
