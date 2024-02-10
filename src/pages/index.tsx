@@ -12,6 +12,7 @@ import {
   CheckCheck,
   PcCase,
   LayoutDashboard,
+  CandlestickChart,
 } from 'lucide-react';
 
 export default function Home(): JSX.Element {
@@ -31,10 +32,10 @@ export default function Home(): JSX.Element {
                 link: '/overview',
               },
               {
-                title: 'Register Domain',
+                title: 'Register ID',
                 icon: <LayoutDashboard />,
                 description:
-                  'Use the dashboard to easily register and manage your Mycel domain, streamlining your digital identity across platforms.',
+                  'Use the dashboard to easily register and manage your Mycel ID, streamlining your digital identity across platforms.',
                 link: '/overview/products/dashboard',
               },
               {
@@ -50,6 +51,13 @@ export default function Home(): JSX.Element {
                 description:
                   "Explore the benefits of Id-based transactions, enhancing privacy and user experience in the digital space with Mycel's innovative technology.",
                 link: '/overview/concepts/id-based-transfer',
+              },
+              {
+                title: 'Multi-Chain Intent Pool',
+                icon: <CandlestickChart />,
+                description:
+                  'The Multi-chain Intent Pool acts as a nexus for user-submitted intents, facilitating a more efficient and direct pathway for executing cross-chain transactions without the need for intermediaries. ',
+                link: '/overview/concepts/multi-chain-intent-pool',
               },
             ]}
           />
