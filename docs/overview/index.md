@@ -15,30 +15,48 @@ This approach enables a broader range of applications to become more user-friend
 
 In the context of software and blockchain technologies, an "intent" refers to a user's declared goal or desired outcome without specifying the procedural steps needed to achieve that outcome. It's a high-level declaration of what the user wants to do, such as sending tokens to someone, purchasing an item, or accessing a service. The concept of intent abstracts away the complexity of the operations required to fulfill these desires, focusing instead on the end result that the user wants to achieve.
 
-For example, Intent: "I want to swap 1 ETH on Ethereum for SOL on Solana."
+Let's break down the scenario step by step for both the transaction-based approach and the intent-centric approach, using the example where Person A wants Z token, Person B wants X token, and Person C wants Y token.
 
-Traditional Method:
+**Transaction-Based Approach**:
+![transaction-based](../assets/transaction-based.png)
 
-1. Find a Bridge Protocol: Alice must search for a bridge protocol that supports both ETH and SOL.
-2. Connect Wallet: Alice connects their EVM and Solana wallet to the bridge protocol, ensuring it contains at least 1 ETH.
-3. Select Swap Pair: Alice selects ETH in the "From" field and SOL in the "To" field.
-4. Enter Alicemount: Alice enters the amount of 1 ETH they wish to swap.
-5. Review Bridge Rate: Alice reviews the current ETH to SOL swap rate and any associated fees.
-6. Confirm Bridge: Alice confirms the swap details, sets the gas fee, and signs the transaction.
-7. Transaction Execution: Alice waits for the transaction to be processed and the SOL to be deposited into their Solana wallet.
+1. Deposit Tokens into Pool:
 
-Intent-Centric Approach:
+   - A deposits X token into a pool and receives P token.
+   - B deposits Y token into the same pool and receives P token.
+   - C deposits Z token into the pool and receives P token.
 
-1. Declare Intent: Alice simply states, "Swap 1 ETH for SOL."
-2. Platform Processes Intent: The Mycel platform interprets this intent and automatically selects the best available DEX for the swap.
-3. Automatic Swap Execution: Mycel handles all aspects of the swap, including:
-   Connecting Alice's wallets.
-   Finding the best swap rate.
-   Setting an optimal gas fee.
-   Executing the transaction.
-4. Completion: Alice is notified once the swap is successful, with the SOL now in their wallet, without having to manually navigate through the swap process.
+2. Exchange P Tokens for Desired Tokens:
 
-The intent-centric approach simplifies the user experience by abstracting away the detailed steps involved in executing a token swap. This method allows users like A to focus on their desired outcome, relying on the platform to handle the complexities of blockchain transactions.
+   - A uses P token to acquire Z token from the pool.
+   - B exchanges P token for X token.
+   - C exchanges P token for Y token.
+
+3. Withdrawal:
+   Each participant withdraws their desired tokens from the pool, completing the exchange process.
+
+This approach requires all parties to first convert their tokens into a common intermediary (P token) before trading for their desired tokens, potentially incurring multiple transaction fees and slippage.
+
+**Intent-Centric Approach**:
+![intent-centric](../assets/intent-centric.png)
+
+1. Expressing Intents:
+
+   - A declares the intent to swap X token for Z token.
+   - B declares the intent to swap Y token for X token.
+   - C declares the intent to swap Z token for Y token.
+
+2. Intent Matching and Execution:
+
+   - The platform automatically identifies the cyclical match among the intents of A, B, and C.
+   - Instead of converting tokens into a common intermediary, The platform orchestrates a direct swap based on the declared intents.
+
+3. Direct Swap:
+   - A directly receives Z token in exchange for X token.
+   - B directly receives X token in exchange for Y token.
+   - C directly receives Y token in exchange for Z token.
+
+The intent-centric approach simplifies the process by directly matching the intents of participants in a circular manner, eliminating the need for an intermediary token and reducing the associated costs and complexity. This method allows for a more efficient and straightforward exchange, closely aligning with the users' initial desires and intentions.
 
 ## What is an Intent-Centric Interface?
 
