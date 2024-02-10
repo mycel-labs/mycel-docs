@@ -16,6 +16,10 @@ A feature within Mycel that allows users to conduct transactions using Mycel IDs
 
 A repository within Mycel where users' intents are collected and matched with corresponding intents from other users. This pool plays a crucial role in the intent resolution process, ensuring efficient and secure cross-chain transactions based on users' declared objectives.
 
+## Multi-Chain Sequencer
+
+A system component that orders transactions or intents to ensure they are processed efficiently and correctly within the blockchain network. In Mycel, the sequencer is part of the infrastructure that helps manage the execution of cross-chain transactions.
+
 ## Escrow Contract
 
 A smart contract used to temporarily hold assets during a transaction until predefined conditions are met. In the context of Mycel, escrow contracts are used in cross-chain transactions to securely manage assets between the initiation and completion of a transfer.
@@ -23,7 +27,3 @@ A smart contract used to temporarily hold assets during a transaction until pred
 ## Intent
 
 A declaration of a user's desired outcome within the Mycel ecosystem, such as sending tokens to another user or swapping tokens across blockchains. Intents allow users to specify what they want to achieve without needing to understand or execute the underlying blockchain processes.
-
-## Sequencer
-
-A system component that orders transactions or intents to ensure they are processed efficiently and correctly within the blockchain network. In Mycel, the sequencer is part of the infrastructure that helps manage the execution of cross-chain transactions.
