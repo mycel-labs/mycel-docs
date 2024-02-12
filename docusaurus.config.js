@@ -62,7 +62,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   plugins: [
     async function myPlugin(context, options) {
       return {
@@ -109,7 +108,9 @@ const config = {
       crossorigin: 'anonymous',
     },
   ],
-
+  markdown: {
+    mermaid: true,
+  },
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -178,7 +179,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} mycel.`,
+        copyright: `Copyright © ${new Date().getFullYear()
+          } mycel.`,
       },
       prism: {
         theme: lightCodeTheme,
