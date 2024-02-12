@@ -42,7 +42,7 @@ const SECTIONS = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mycel Docs',
+  title: 'ID Based Intent-Centric Interface',
   tagline: '',
   url: 'https://docs.mycel.domains',
   baseUrl: '/',
