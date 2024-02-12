@@ -32,11 +32,11 @@ export default function Home(): JSX.Element {
                 link: '/overview',
               },
               {
-                title: 'Register ID',
+                title: 'Usecase',
                 icon: <LayoutDashboard />,
                 description:
-                  'Use the dashboard to easily register and manage your Mycel ID, streamlining your digital identity across platforms.',
-                link: '/overview/products/dashboard',
+                  'Explore the various use cases of Mycel, from digital identity to cross-chain transactions, and how it revolutionizes the blockchain space.',
+                link: '/overview/usecase',
               },
               {
                 title: 'Mycel ID',
