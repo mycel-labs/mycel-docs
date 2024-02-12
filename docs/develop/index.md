@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# Develop
 
 The guides on this page will explain the process of developing on Mycel.
 Leveraging the Cosmos SDK, Mycel offers scalability, modularity, and interoperability. Understand how Mycel utilizes Cosmos SDK features for optimal blockchain solutions.
