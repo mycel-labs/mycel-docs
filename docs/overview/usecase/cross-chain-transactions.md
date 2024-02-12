@@ -2,24 +2,40 @@
 sidebar_position: 1
 ---
 
-# Cross-Chain Transactions
+# Cross-Chain Swap and Bridge without Native Tokens
 
-Cross-chain transactions, or the process of transferring assets between different blockchain networks, traditionally involve complex steps and a deep understanding of the intricacies of each network involved. Mycel significantly simplifies this process through its intent-centric approach and ID-based transfers.
+This use case is particularly appealing in the context of the decentralized finance (DeFi) space, where users often need to interact with multiple blockchain networks, each requiring its native token for transaction fees. Mycel simplifies this process, enhancing user experience and accessibility.
 
-Example: **Alice Wants to Send USDC to Bob on Solana**
+- **Eliminates Need for Native Tokens**: Users like Alice can engage in cross-chain activities without the complexity of acquiring and managing native tokens for gas fees on multiple networks.
+- **Simplifies Cross-Chain Transactions**: By abstracting away the need for users to interact with bridges or worry about gas fees, Mycel makes cross-chain swaps more accessible and user-friendly.
+- **Enhances User Experience**: Users can participate in the multi-chain ecosystem using only the tokens they intend to swap, making decentralized finance more seamless and inclusive.
 
-## Traditional Approach
+## Usecase: **Alice Wants to Swap Tokens Across Chains without Holding Native Gas Tokens**
 
-1. **Alice's Preparation**: Alice has ETH on Ethereum she wants to send to Bob, who prefers to receive it as SOL on Solana.
-2. **Finding a Bridge**: Alice searches for a reliable cross-chain bridge service that supports ETH to SOL transactions.
-3. **Bridge Transaction**: Alice connects her Ethereum wallet to the bridge, deposits ETH, selects the Solana network for the output, and inputs Bob's Solana wallet address.
-4. **Fees and Waiting**: Alice pays transaction fees on Ethereum and possibly bridge fees. She then waits for the bridge to process the transaction and for SOL to be deposited into Bob's Solana wallet.
+1. **Intent Declaration**: Alice uses the Mycel interface to declare her intent to swap ERC-20 tokens on Ethereum for another token on Solana, opting to pay the service fee with ERC-20 tokens, thus avoiding the need for native gas tokens.
 
-## With Mycel's Intent-Centric Approach
+2. **Intent Submission and Matching**: Her intent is submitted to the Multi-chain Intent Pool, where Mycel's sophisticated algorithms identify a matching intent that complements Alice's swap requirements.
 
-![id-based-transfer](../../assets/id-based-transfer.png)
+3. **Sequencer and Escrow Interaction**: The Mycel sequencer orchestrates the transaction, interfacing with escrow mechanisms on both Ethereum and Solana. It locks Alice's ERC-20 tokens in an Ethereum-based escrow and signals a Solana escrow to prepare for delivering the swapped tokens.
 
-1. **Expressing Intent**: Alice logs into Mycel and states her intent: "Send ETH as SOL to bob.cel" — a simplified ID that represents Bob's receiving address on Solana.
-2. **Mycel Handles the Details**: The Mycel platform automatically identifies the necessary steps. It securely locks Alice's ETH in an escrow contract on Ethereum, interacts with a cross-chain mechanism to swap ETH for SOL, and directs the SOL to the specified Mycel ID linked to Bob's Solana address.
-3. **Seamless Execution**: The entire process is managed by Mycel, from securing the best exchange rate for ETH to SOL conversion to ensuring the SOL is deposited into Bob's Solana wallet associated with his Mycel ID. Alice pays a transparent fee, likely lower than combining separate transaction and bridge fees.
-4. **Confirmation to Both Parties**: Alice and Bob receive notifications about the transaction's completion. Bob accesses his SOL on Solana directly, without needing to manage or even know the Ethereum transaction details.
+4. **Withdraw Token**: Alice Withdraw SOL Token.
+
+```mermaid
+sequenceDiagram
+    Alice->>Intent Pool: 1. Expresses intent to swap ERC-20 (Ethereum) for tokens on Solana
+    Intent Pool->>Sequencer: 2. Identifies matching intents for cross-chain swap
+    Sequencer->>EthEscrow: 3. Locks Alice's ERC-20 tokens
+    Sequencer->>SolEscrow: 3 .Releases swapped tokens to Alice on Solana
+    SolEscrow->>Alice: 4. Withdraw
+```
+
+## Supported Chains (Upcoming)
+
+- Ethereum
+- Polygon
+- Arbitrum
+- Optimism
+- BNB Chain
+- Solana
+- Sui
+- IBC-enbaled Chains
