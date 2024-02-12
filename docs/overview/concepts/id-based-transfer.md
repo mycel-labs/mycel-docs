@@ -12,14 +12,14 @@ Central to this system is the multi-chain sequencer, which, in conjunction with 
 
 1. Intent Submission by Alice:
 
-   Alice selects "Send" and inputs her intent: "Send 100 USDC to Bob's Mycel ID on Polygon."  
+   Alice selects "Send" and inputs her intent: "Send 100 USDC to Bob's Mycel ID on Solana."  
    Alice approves the transfer of 100 USDC to an escrow smart contract on Ethereum, facilitated by Mycel. This step ensures the funds are securely held until the transaction across chains is verified.
 
 2. Intent Processing by Mycel:
 
-   Mycel identifies Alice's intent and begins the cross-chain transaction process. It ensures the escrow contract on Ethereum holds the 100 USDC and prepares for its release to Bob on Polygon.
+   Mycel identifies Alice's intent and begins the cross-chain transaction process. It ensures the escrow contract on Ethereum holds the 100 USDC and prepares for its release to Bob on Solana.
 
-3. Receiving Funds on Polygon:
+3. Receiving Funds on Solana:
 
-   Bob receives a notification that 100 USDC is available for him on Polygon. He simply needs to confirm the receipt through his Mycel account.
-   Upon confirmation, the funds are released from the escrow on Polygon, and Bob can access his 100 USDC.
+   Bob receives a notification that 100 USDC is available for him on Solana. He simply needs to confirm the receipt through his Mycel account.
+   Upon confirmation, the funds are released from the escrow on Solana, and Bob can access his 100 USDC.
