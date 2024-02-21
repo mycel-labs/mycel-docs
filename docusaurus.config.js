@@ -161,7 +161,7 @@ const config = {
             items: [
               {
                 label: 'X',
-                href: 'https://x.com/myceldomain',
+                href: 'https://x.com/mycelmycel',
               },
               {
                 label: 'Discord',
