@@ -53,11 +53,11 @@ export default function Home(): JSX.Element {
                 link: '/overview/concepts/id-based-transfer',
               },
               {
-                title: 'Multi-Chain Intent Pool',
+                title: 'Cross-chain Order Verifier',
                 icon: <CandlestickChart />,
                 description:
-                  'The Multi-chain Intent Pool acts as a nexus for user-submitted intents, facilitating a more efficient and direct pathway for executing cross-chain transactions without the need for intermediaries. ',
-                link: '/overview/concepts/multi-chain-intent-pool',
+                  'Cross-Chain Verifier plays a crucial role in ID-based transfer system, ensuring the security and integrity of cross-chain transactions.',
+                link: '/overview/concepts/cross-chain-order-verifier',
               },
             ]}
           />

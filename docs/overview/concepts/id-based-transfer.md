@@ -6,7 +6,7 @@ sidebar_position: 3
 
 The ID-based Transfer feature of Mycel revolutionizes how tokens are transacted in the Web3 space. This feature allows users to send and receive tokens using just IDs, significantly enhancing privacy by keeping actual wallet addresses confidential.
 
-Central to this system is the multi-chain sequencer, which, in conjunction with the [Multi-chain Intent Pool](/overview/concepts/multi-chain-intent-pool), enhances the efficiency and security of these ID-based transactions. This symbiotic relationship ensures that user intents for transactions are seamlessly matched and executed across different blockchain networks. The integration of the Multi-chain Intent Pool is vital, as it aggregates and processes these intents, enabling a fluid cross-chain transaction experience that was previously complex and cumbersome.
+Central to this system is [Cross-chain Order Verifier](overview/concepts/cross-chain-order-verifier), enhances the efficiency and security of these ID-based transactions. This symbiotic relationship ensures that user intents for transactions are seamlessly matched and executed across different blockchain networks. The integration of the Multi-chain Intent Pool is vital, as it aggregates and processes these intents, enabling a fluid cross-chain transaction experience that was previously complex and cumbersome.
 
 ![id-based-transfer](../../assets/id-based-transfer.png)
 

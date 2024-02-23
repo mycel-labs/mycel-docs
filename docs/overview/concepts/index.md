@@ -23,8 +23,8 @@ The ID-based Transfer feature of Mycel revolutionizes how tokens are transacted 
 The intent-based sequencer incorporated into Mycel's ID-based Transfer system improves the efficiency and security of transactions. This innovation not only simplifies the transaction process but also enriches the user experience, making Web3 more accessible and user-friendly.
 With multi-chain support, users can perform transactions across various blockchain networks, showcasing the flexibility and interoperability of Mycel.
 
-## Multi-chain Intent Pool
+## Cross-chain Order Verifier
 
-The Multi-chain Intent Pool acts as a nexus for user-submitted intents, facilitating a more efficient and direct pathway for executing cross-chain transactions without the need for intermediaries. By collecting intents from users wishing to perform transactions across various blockchains, the pool plays a pivotal role in the intent-resolution process.
+Cross-Chain Verifier plays a crucial role in Mycel's ID-based transfer system, ensuring the security and integrity of cross-chain transactions. It acts as the backbone of the system, validating approvals and facilitating seamless token swaps across different blockchains.
 
 ![multi-chain-intent](../../assets/overview.png)
