@@ -6,10 +6,9 @@ sidebar_position: 1
 
 ## What is Mycel?
 
-Mycel is an intent-centric interface to solve complexity in multi-chain and bring bilion users for Web3 by eliminating the need for them to understand complex blockchain concepts like gas fees and transactions.
-
-By adopting Mycel's intent-centric interface, protocols like Restaking Protocols and Decentralized Exchanges (DEX) can provide a user-friendly experience, where actions are reduced to simple intents that hide the complex details of blockchain operations.
-This approach enables a broader range of applications to become more user-friendly, inviting a vast new audience to explore.
+Mycel revolutionizes the Web3 landscape by introducing an intent-centric interface, simplifying the user experience for the masses in the multi-chain ecosystem.
+It eliminates the necessity for users to grapple with intricate blockchain concepts such as gas fees and transactions. Embracing Mycel's interface empowers protocols like Restaking Protocols and Decentralized Exchanges (DEX) to offer a seamless user experience, transforming complex blockchain operations into straightforward intents.
+This innovative approach not only enhances user-friendliness but also opens the door for a diverse range of applications to be more accessible, inviting a widespread audience to delve into the Web3 realm.
 
 ## What is Intent?
 
