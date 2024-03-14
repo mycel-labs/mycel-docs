@@ -90,7 +90,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mycel-domain/mycel-docs',
+            'https://github.com/mycel-labs/mycel-docs',
         },
         blog: false,
         theme: {
@@ -137,7 +137,7 @@ const config = {
             label: 'Validate',
           },
           {
-            href: 'https://github.com/mycel-domain',
+            href: 'https://github.com/mycel-labs',
             label: 'GitHub',
             position: 'right',
           },
@@ -174,7 +174,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/mycel-domain',
+                href: 'https://github.com/mycel-labs',
               },
             ],
           },
