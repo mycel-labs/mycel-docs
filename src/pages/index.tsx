@@ -24,7 +24,7 @@ export default function Home(): JSX.Element {
                 title: 'Mycel Overview',
                 icon: <Bolt />,
                 description:
-                  'Discover Mycel, simplifying multi-chain complexity and welcoming billions to blockchain without the hassle of gas fees and transactions.',
+                  'Discover Mycel, a decentralized platform that enables the transfer, management, and trading of various account across different blockchain platforms. ',
                 link: '/overview',
               },
             ]}

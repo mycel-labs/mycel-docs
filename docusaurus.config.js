@@ -42,9 +42,9 @@ const SECTIONS = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ID Based Intent-Centric Interface',
+  title: 'Account Transfer Protocol',
   tagline: '',
-  url: 'https://docs.mycel.domains',
+  url: 'https://docs.mycel.labs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -52,7 +52,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'mycel-domain', // Usually your GitHub org/user name.
+  organizationName: 'mycel-labs', // Usually your GitHub org/user name.
   projectName: 'mycel-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -189,4 +189,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = config

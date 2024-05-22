@@ -5,7 +5,7 @@ draft: true
 
 # Governance
 
-In the spirit of fostering a decentralized and user-empowered digital world, we, the participants of the Mycel network, establish this constitution. Our aim is to craft a governance model that ensures fair, transparent, and efficient management of digital identities (IDs). We believe in the collective wisdom of the network's participants to guide the evolution of the ID infrastructure in a way that respects individual sovereignty and promotes interoperability.
+In the spirit of fostering a decentralized and user-empowered digital world, we, the participants of the Mycel network, establish this constitution. Our aim is to craft a governance model that ensures fair, transparent, and efficient management of transferable account. We believe in the collective wisdom of the network's participants to guide the evolution of the ID infrastructure in a way that respects individual sovereignty and promotes interoperability.
 
 ## Guiding Principles
 
