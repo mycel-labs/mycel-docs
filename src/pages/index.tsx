@@ -4,15 +4,11 @@ import { Hero } from '../components/Hero';
 import { Section } from '../components/Section';
 import {
   Bolt,
-  Fingerprint,
-  Repeat2,
   Box,
   Waypoints,
   ChevronRightSquare,
   CheckCheck,
   PcCase,
-  LayoutDashboard,
-  CandlestickChart,
 } from 'lucide-react';
 
 export default function Home(): JSX.Element {
@@ -30,34 +26,6 @@ export default function Home(): JSX.Element {
                 description:
                   'Discover Mycel, simplifying multi-chain complexity and welcoming billions to blockchain without the hassle of gas fees and transactions.',
                 link: '/overview',
-              },
-              {
-                title: 'Usecase',
-                icon: <LayoutDashboard />,
-                description:
-                  'Explore the various use cases of Mycel, from digital identity to cross-chain transactions, and how it revolutionizes the blockchain space.',
-                link: '/overview/usecase',
-              },
-              {
-                title: 'Mycel ID',
-                icon: <Fingerprint />,
-                description:
-                  'Learn how Mycel ID revolutionizes digital identity with seamless integration across Web2 and Web3 platforms, enhancing user experience and privacy.',
-                link: '/overview/concepts/mycel-id',
-              },
-              {
-                title: 'ID-based Transfer',
-                icon: <Repeat2 />,
-                description:
-                  "Explore the benefits of Id-based transactions, enhancing privacy and user experience in the digital space with Mycel's innovative technology.",
-                link: '/overview/concepts/id-based-transfer',
-              },
-              {
-                title: 'Cross-chain Order Verifier',
-                icon: <CandlestickChart />,
-                description:
-                  'Cross-Chain Verifier plays a crucial role in ID-based transfer system, ensuring the security and integrity of cross-chain transactions.',
-                link: '/overview/concepts/cross-chain-order-verifier',
               },
             ]}
           />
