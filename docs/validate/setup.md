@@ -11,7 +11,7 @@ The minimum recommended specs for running Mycel Node as follows:
 | Node Type  | CPU Cores(s) | Memory | SSD  |
 | ---------- | ------------ | ------ | ---- |
 | Validator  | 4            | 32GB   | 1TB+ |
-| Full Node  | 2            | 8GB    | 1TB  |
+| Full Node  | 2            | 16GB   | 1TB  |
 | Light Node | 2            | 4GB    |      |
 
 ## Install Mycel Binary

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 8
+draft: true
 ---
 
 # Glossary
@@ -8,22 +9,49 @@ sidebar_position: 8
 
 A unique digital identifier used within the Mycel platform, structured in a domain-like format with Top-Level Domains (TLD) and Second-Level Domains (SLD). Mycel IDs serve as a bridge between Web2 and Web3, allowing users to manage their digital identities seamlessly across multiple blockchain networks.
 
-## ID-based Transfer
+## Intents
 
-A feature within Mycel that allows users to conduct transactions using Mycel IDs instead of traditional wallet addresses. This approach enhances privacy and simplifies the transaction process by abstracting the intricacies of blockchain operations.
+In the context of software and blockchain technologies, an "intents" refers to a user's declared goal or desired outcome without specifying the procedural steps needed to achieve that outcome. It's a high-level declaration of what the user wants to do, such as sending tokens to someone, purchasing an item, or accessing a service. The concept of intent abstracts away the complexity of the operations required to fulfill these desires, focusing instead on the end result that the user wants to achieve.
 
-## Multi-Chain Intent Pool
+Let's break down the scenario step by step for both the transaction-based approach and the intent-centric approach, using the example where Person A wants Z token, Person B wants X token, and Person C wants Y token.
 
-A repository within Mycel where users' intents are collected and matched with corresponding intents from other users. This pool plays a crucial role in the intent resolution process, ensuring efficient and secure cross-chain transactions based on users' declared objectives.
+**Transaction-Based Approach**:
+![transaction-based](../assets/transaction-based.png)
 
-## Multi-Chain Sequencer
+1. Deposit Tokens into Pool:
 
-A system component that orders transactions or intents to ensure they are processed efficiently and correctly within the blockchain network. In Mycel, the sequencer is part of the infrastructure that helps manage the execution of cross-chain transactions.
+   - A deposits X token into a pool and receives P token.
+   - B deposits Y token into the same pool and receives P token.
+   - C deposits Z token into the pool and receives P token.
 
-## Escrow Contract
+2. Exchange P Tokens for Desired Tokens:
 
-A smart contract used to temporarily hold assets during a transaction until predefined conditions are met. In the context of Mycel, escrow contracts are used in cross-chain transactions to securely manage assets between the initiation and completion of a transfer.
+   - A uses P token to acquire Z token from the pool.
+   - B exchanges P token for X token.
+   - C exchanges P token for Y token.
 
-## Intent
+3. Withdrawal:
+   Each participant withdraws their desired tokens from the pool, completing the exchange process.
 
-A declaration of a user's desired outcome within the Mycel ecosystem, such as sending tokens to another user or swapping tokens across blockchains. Intents allow users to specify what they want to achieve without needing to understand or execute the underlying blockchain processes.
+This approach requires all parties to first convert their tokens into a common intermediary (P token) before trading for their desired tokens, potentially incurring multiple transaction fees and slippage.
+
+**Intent-Centric Approach**:
+![intent-centric](../assets/intent-centric.png)
+
+1. Expressing Intents:
+
+   - A declares the intent to swap X token for Z token.
+   - B declares the intent to swap Y token for X token.
+   - C declares the intent to swap Z token for Y token.
+
+2. Intent Matching and Execution:
+
+   - The platform automatically identifies the cyclical match among the intents of A, B, and C.
+   - Instead of converting tokens into a common intermediary, The platform orchestrates a direct swap based on the declared intents.
+
+3. Direct Swap:
+   - A directly receives Z token in exchange for X token.
+   - B directly receives X token in exchange for Y token.
+   - C directly receives Y token in exchange for Z token.
+
+The intent-centric approach simplifies the process by directly matching the intents of participants in a circular manner, eliminating the need for an intermediary token and reducing the associated costs and complexity. This method allows for a more efficient and straightforward exchange, closely aligning with the users' initial desires and intentions.

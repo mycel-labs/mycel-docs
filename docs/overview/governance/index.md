@@ -1,10 +1,11 @@
 ---
 sidebar_position: 5
+draft: true
 ---
 
 # Governance
 
-In the spirit of fostering a decentralized and user-empowered digital world, we, the participants of the Mycel network, establish this constitution. Our aim is to craft a governance model that ensures fair, transparent, and efficient management of digital identities (IDs). We believe in the collective wisdom of the network's participants to guide the evolution of the ID infrastructure in a way that respects individual sovereignty and promotes interoperability.
+In the spirit of fostering a decentralized and user-empowered digital world, we, the participants of the Mycel network, establish this constitution. Our aim is to craft a governance model that ensures fair, transparent, and efficient management of transferable account. We believe in the collective wisdom of the network's participants to guide the evolution of the ID infrastructure in a way that respects individual sovereignty and promotes interoperability.
 
 ## Guiding Principles
 
@@ -32,7 +33,10 @@ Becoming a validator? [Read here](/validate)
 **Responsibilities**
 
 1. **Block Proposal and Validation**
-   Validators are responsible for proposing new blocks and validating the transactions within them. They ensure that all transactions in the block are valid according to the network's rules and have not been included in the blockchain previously. 1. **Block Proposal**: In each round of consensus, a validator is chosen by the protocol to propose a new block. This validator collects transactions from the transaction pool, assembles them into a block, and broadcasts this block to other validators. 2. **Prevote and Precommit**: Validators participate in two rounds of voting for each block. In the first round (prevote), validators tentatively agree on the proposed block. In the second round (precommit), validators commit to the block if they see that a majority of other validators have also agreed to it. 3. **Commit**: Once more than two-thirds of the validators have precommitted to the same block, the block is committed to the blockchain. This ensures that even if some validators act maliciously or fail, the network remains secure and can reach consensus.
+   Validators are responsible for proposing new blocks and validating the transactions within them. They ensure that all transactions in the block are valid according to the network's rules and have not been included in the blockchain previously.
+   1. **Block Proposal**: In each round of consensus, a validator is chosen by the protocol to propose a new block. This validator collects transactions from the transaction pool, assembles them into a block, and broadcasts this block to other validators.
+   2. **Prevote and Precommit**: Validators participate in two rounds of voting for each block. In the first round (prevote), validators tentatively agree on the proposed block. In the second round (precommit), validators commit to the block if they see that a majority of other validators have also agreed to it.
+   3. **Commit**: Once more than two-thirds of the validators have precommitted to the same block, the block is committed to the blockchain. This ensures that even if some validators act maliciously or fail, the network remains secure and can reach consensus.
 2. **Network Security and Stability**
    Validators play a pivotal role in maintaining the security and stability of the network.
    They are expected to run reliable nodes, be online consistently, and participate actively in consensus and governance processes.
