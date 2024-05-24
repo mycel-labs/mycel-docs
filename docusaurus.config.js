@@ -141,12 +141,6 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {
-            href: 'https://dashboard.mycel.domains/',
-            label: 'Dashboard',
-            position: 'right',
-          },
-
         ],
       },
       colorMode: {

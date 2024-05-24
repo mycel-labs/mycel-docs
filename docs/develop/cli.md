@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-draft: true
 ---
 
 # Command Line Tool
@@ -10,7 +9,7 @@ draft: true
 ### CLI
 
 ```
-curl https://get.ignite.com/mycel-domain/mycel@latest! | sudo bash
+curl https://get.ignite.com/mycel-labs/mycel@latest! | sudo bash
 ```
 
 Use `mycel [command] --help` for more information about a command.
