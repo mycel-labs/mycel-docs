@@ -7,7 +7,7 @@ sidebar_position: 2
 ## Exchange assets across different blockchain platforms
 
 Transferable Account serves as a gateway for interacting with native assets on any chain like Ethereum-based account-based chains (e.g., ERC-20 tokens) and Bitcoin-based UTXO-based chains (e.g., BTC)
-![swap](https://hackmd.io/_uploads/B1bBbpp4R.png)
+![swap](../assets/swap.png)
 
 1. Deposit Assets and Submit Intent:
    - Alice submits her intent, specifying the desired asset swap.
