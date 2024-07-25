@@ -4,6 +4,7 @@ import { Hero } from '../components/Hero';
 import { Section } from '../components/Section';
 import {
   Bolt,
+  Key,
   Box,
   Waypoints,
   ChevronRightSquare,
@@ -26,6 +27,13 @@ export default function Home(): JSX.Element {
                 description:
                   'Discover Mycel, a decentralized platform that enables the transfer, management, and trading of various account across different blockchain platforms. ',
                 link: '/overview',
+              },
+              {
+                title: 'Transferable Account',
+                icon: <Key />,
+                description:
+                  'Learn about the transferable account, a specialized account structure on the Mycel platform that facilitates secure, cross-chain asset management and transfer.',
+                link: '/overview/concepts/transferable-account',
               },
             ]}
           />
