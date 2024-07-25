@@ -13,7 +13,7 @@ A Transferable Account (TA) on Mycel is a specialized account structure designed
 **TSS Account**: An account operated by validators.  
 **Transferable Account**: An account on Mycel managed by a 2-of-2 multi-signature, consisting of Alice and the TSS account.
 
-## Architecture
+## Features
 
 ### Create Account
 
@@ -119,3 +119,90 @@ sequenceDiagram
 Mycel is a decentralized platform that aims to provide secure and private transactions while maintaining the integrity and verifiability of the system. One of the key components in achieving these goals is the use of threshold signatures, specifically the [Flexible Round-Optimized Schnorr Threshold (FROST) signature scheme](https://eprint.iacr.org/2020/852).
 
 One of the primary reasons Mycel has chosen to employ FROST is its unique property of maintaining a fixed public key, even when the set of signers changes. In Mycel, users' assets are held in transferable account, each associated with a unique public key. The security and ownership of these FAs are distributed among a group of validators using FROST.
+
+## Specification
+
+### State Diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> Locked: CreateAccount()
+    Locked--> ApprovedWithLock: ApproveAccount()
+    Locked --> Unlocked: UnlockAccount()
+    ApprovedWithLock --> Locked: RevokeAccount()
+    ApprovedWithLock --> Unlocked: UnlockAccount()
+    Unlocked --> Signed: RequestSign()
+    Unlocked --> SignedAndDeleted: SignAndDeleteAccount()
+    Unlocked --> Locked: LockAccount()
+    Signed --> Unlocked
+
+```
+
+### Type
+
+**Account**
+
+- `id` String
+- `owner` String
+- `curve` Curve
+- `publicKey` String
+- `approval` Approval
+- `lockExpiry` UnixTime
+
+**Approval**
+
+- `publicKey` String
+- `curve` Curve
+
+**Curve**
+
+- SECP256K1
+- EDCSA
+
+### Messages
+
+`CreateAccount(owner)`
+
+Create a traferable account Returns the public key of transferable account which is created
+
+`LockAccount(id, duration)`
+
+Lock the transferable account
+
+`LockAccount(id, duration, to)`
+
+Lock the transferable account and approve unlocking
+
+`UnlockAccount(id)`
+
+Unlock the transferable account
+
+`ApproveAccount(id, to)`
+
+Approve unlocking the transferable account to the party
+
+`RevokeApproval(id, to)`
+
+Revoke the approval to unlocking the transferable account
+
+`RequestSign(id, data)`
+
+Request a signature of the transferable account
+
+`RequestSignAndDeleteAccount(id, data)`
+
+Request a signature of the transferable account and delete the key
+
+### Query
+
+`GetPublicKey(id)`
+
+Returns the public key (pair) of the transferable account
+
+`GetAddress(id, chain)`
+
+Returns the address of the transferable account
+
+`GetAccountStatus(id)`
+
+returns the status of the transferable account
