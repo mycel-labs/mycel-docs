@@ -118,7 +118,7 @@ const config = {
         title: '',
         logo: {
           alt: 'mycel Logo',
-          src: 'img/logo.svg',
+          src: 'img/typo.png',
         },
         items: [
           {
