@@ -17,7 +17,7 @@ Transferable Account serves as a gateway for interacting with native assets on a
 3. Transfer Validation
    - Application validates the asset transfer to ensure its integrity and correctness.
 4. Update Ownership:
-   - Upon successful validation, the ownership of the FA is transferred from the Swapper to the Solver.
+   - Upon successful validation, the ownership of the TA is transferred from the Swapper to the Solver.
 
 ## Transfer assets on any chain from smart contracts or rollups on any other chain
 
