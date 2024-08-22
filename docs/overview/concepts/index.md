@@ -10,6 +10,8 @@ The key concepts of Mycel revolve around its innovative approach to managing and
 
 At the heart of Mycel’s infrastructure is the Transferable Account. A Transferable Account is a novel digital entity that allows users to securely manage, transfer, and trade assets across various blockchain platforms. Unlike traditional accounts, which are often tied to a single blockchain and operate within its constraints, Transferable Accounts are designed to be fluid, moving freely between different chains while maintaining the integrity and security of the assets they hold.
 
+![transferable-account](../../assets/ta.png)
+
 ### Key Features of Transferable Accounts:
 
 - Cross-Chain Mobility: Transferable Accounts can be transferred or exchanged on any compatible blockchain or state machine. This mobility is essential for users who need to operate across multiple networks, as it eliminates the need to rely on centralized exchanges or complex bridging solutions.
