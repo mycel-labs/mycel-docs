@@ -14,7 +14,6 @@ At the heart of Mycel’s infrastructure is the Transferable Account. A Transfer
 
 - Cross-Chain Mobility: Transferable Accounts can be transferred or exchanged on any compatible blockchain or state machine. This mobility is essential for users who need to operate across multiple networks, as it eliminates the need to rely on centralized exchanges or complex bridging solutions.
 - Security: The security of Transferable Accounts is ensured through the use of Trusted Execution Environments (TEEs) and advanced cryptographic techniques. The private keys associated with these accounts are generated and stored within a TEE, ensuring that they are never exposed to the outside world.
-- Interoperability: By design, Transferable Accounts are highly interoperable, capable of interacting with smart contracts, decentralized applications (dApps), and other blockchain entities across different networks. This interoperability makes them ideal for a wide range of decentralized finance (DeFi) and other blockchain-based applications.
 
 Transferable Accounts serve as the fundamental building block of Mycel, enabling the seamless flow of assets and data across diverse blockchain ecosystems. They provide a secure and flexible mechanism for managing digital assets in a decentralized world, breaking down the barriers between different blockchains and making cross-chain interactions more accessible and efficient.
 
