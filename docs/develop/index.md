@@ -15,3 +15,5 @@ Our GitHub repository serves as the central hub for source code, tools, and comm
 [RPC Endpoints](/develop/network): Access detailed documentation on Mycel's RPC endpoints. This section covers how to query blockchain data, submit transactions, and interact with the Mycel network programmatically.
 
 [CosmWasm Support](/develop/cosmwasm): Mycel proudly supports CosmWasm, allowing you to develop smart contracts with ease and deploy them across multiple chains within the Cosmos ecosystem. Learn how to harness the power of CosmWasm for your dApps on Mycel.
+
+[Astraeus](/develop/astraeus): Explore Astraeus, system for managing transferable accounts. This section covers the API specification, technical details, and guides on how to interact with Astraeus.
