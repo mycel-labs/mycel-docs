@@ -41,7 +41,7 @@ const SECTIONS = [
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Account Transfer Protocol',
+  title: 'Mycel Docs',
   tagline: '',
   url: 'https://docs.mycel.labs',
   baseUrl: '/',

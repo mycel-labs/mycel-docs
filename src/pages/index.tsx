@@ -25,15 +25,15 @@ export default function Home(): JSX.Element {
                 title: 'Mycel Overview',
                 icon: <Bolt />,
                 description:
-                  'Discover Mycel, a decentralized platform that enables the transfer, management, and trading of various account across different blockchain platforms. ',
+                  'Discover Mycel, a decentralized infrastructure designed to synchronize state machines across a diverse array of blockchain platforms.',
                 link: '/overview',
               },
               {
-                title: 'Transferable Account',
+                title: 'Concepts',
                 icon: <Key />,
                 description:
                   'Learn about the transferable account, a specialized account structure on the Mycel platform that facilitates secure, cross-chain asset management and transfer.',
-                link: '/overview/concepts/transferable-account',
+                link: '/overview/concepts',
               },
             ]}
           />
