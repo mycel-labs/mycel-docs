@@ -200,7 +200,7 @@ Deletes an existing account. This operation can be performed regardless of the a
 **Example**:
 
 ```bash
-curl -X DELETE http://localhost:8080/v1/accounts/0x9876... \
+curl -X POST http://localhost:8080/v1/accounts/0x9876... \
   -H "Content-Type: application/json" \
   -d '{"base":{"account_id":"0x9876...","proof":{"valid_for":1234567890,"message_hash":"0x1234...","signature":"0xabcd...","signer":"0x5678..."}}}'
 ```
