@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Technical Details
 
 This document provides in-depth technical information about the Astraeus, including details about the smart contract implementation and important security features.
