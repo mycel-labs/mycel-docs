@@ -41,44 +41,17 @@ export default function Home(): JSX.Element {
             sectionTitle="Developers"
             cards={[
               {
-                title: 'CosmWasm Guide',
+                title: 'Get Started',
+                icon: <Box />,
+                description: 'Start building a cross-chain dApps with Mycel.',
+                link: '/develop/astraeus/get-started',
+              },
+              {
+                title: 'API Reference',
                 icon: <Box />,
                 description:
-                  'Start building on Mycel with CosmWasm, the perfect toolkit for smart contract development, enabling seamless integration and high performance.',
-                link: '/develop/cosmwasm',
-              },
-              {
-                title: 'CLI Docs',
-                icon: <ChevronRightSquare />,
-                description:
-                  'Dive into the command-line interface documentation to effectively manage and interact with the Mycel network, enhancing your development workflow.',
-                link: '/develop/cli',
-              },
-              {
-                title: 'Endpoints & Network',
-                icon: <Waypoints />,
-                description:
-                  "Access Mycel's RPC and LCD endpoints for seamless blockchain operations, enabling data queries and transaction execution.",
-                link: '/develop/network',
-              },
-            ]}
-          />
-          <Section
-            sectionTitle="Validators & Run Node"
-            cards={[
-              {
-                title: 'Learn about Validator',
-                icon: <CheckCheck />,
-                description:
-                  'Understand the critical role validators play in the Mycel network and how you can contribute to its security and efficiency by becoming a validator.',
-                link: '/validate',
-              },
-              {
-                title: 'Validator Setup',
-                icon: <PcCase />,
-                description:
-                  'Get all the information you need to set up and run a node on the Mycel network, becoming a key player in securing and operating the blockchain.',
-                link: '/validate/setup',
+                  'Explore the Mycel API reference to learn how to interact with the Mycel.',
+                link: '/develop/astraeus/spec',
               },
             ]}
           />

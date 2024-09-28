@@ -10,6 +10,9 @@ Astraeus represents the foundational stage of Mycel's architecture, focusing on 
 - API Specification and Integration: Astraeus also involves defining and refining the API specifications that will allow developers to interact with the Mycel infrastructure. This API will form the backbone of all future development, ensuring that Mycel’s core functionalities are accessible and well-documented.
 - Interoperability Testing: During this stage, initial tests are conducted to ensure that Transferable Accounts can operate smoothly across various blockchain platforms, validating the concept of cross-chain asset management.
 
+Get start developing with Astraeus from here:
+[Getting Started](/develop/astraeus/get-started)
+
 ## Architecture
 
 Astraeus introduces a secure and decentralized infrastructure for managing Transferable Accounts using [SUAVE](https://suave-alpha.flashbots.net/). The architecture focuses on enabling the creation, transfer, and management of accounts in a confidential, transparent, and efficient manner, while leveraging key components like Kettle, MEVM and SUAVE.
